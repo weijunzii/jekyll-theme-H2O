@@ -1,5 +1,4 @@
 ---
-​---
 layout: post
 title: '用 Markdown 排版'
 subtitle: '看了不吃亏哦～'
@@ -7,7 +6,6 @@ date: 2017-03-28
 categories: 技术
 cover: 'https://www.nasa.gov/sites/default/files/thumbnails/image/25937026477_4b7949e87d_o.jpg'
 tags: Markdown 排版
-​---
 ---
 
 * content
