@@ -31,7 +31,7 @@ nightMode: true
 # Comments 评论功能
 comments:
   disqus: true
-  disqus_url: 'https://weijunzi.disqus.com/embed.js'
+  disqus_url: 'https://weijunzi-disqus-com.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
@@ -49,8 +49,8 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  weibo: '//weibo.com/lovecolcol'
-  wechat: '//mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3NjQ1Mzc5OA==#wechat_redirect'
+  #weibo: '//weibo.com/lovecolcol'
+  #wechat: '//mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI3NjQ1Mzc5OA==#wechat_redirect'
   jianshu: '//jianshu.com/u/93022c8a49c5'
   github: '//github.com/weijunzii'
 
