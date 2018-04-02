@@ -4,7 +4,7 @@ title: '使用github搭建个人博客'
 subtitle: '看了不吃亏哦～'
 date: 2018-04-02
 categories: 技术
-cover: 'https://images.unsplash.com/photo-1518172001620-cd0e03e41ff4?ixlib=rb-0.3.5&s=9b2b996cbae53d6b9d97e8d2629cf565&auto=format&fit=crop&w=1955&q=80'
+cover: 'https://bing.ioliu.cn/photo/EtretatSunrise_ZH-CN10891175350?force=ranking_1'
 tags: 博客 github
 ---
 
