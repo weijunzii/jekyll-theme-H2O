@@ -116,11 +116,21 @@ tags: 博客 github
 
 
 
-修改完后要同步，
+修改完后要同步，Summary 自己能看懂就行，随便写写也无所谓。写完后
+
+选择 Commit to master 。
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-105a8860018df56b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-58166734bb18b0d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+然后选择同步，Push origin。
+
+
+
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-65a024cd2f389a17.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -162,7 +172,9 @@ tags: 博客 github
 
 _posts 文件夹里面就是你写的博文，要用 markdown 语法写，不然解析不了。
 
-相关链接：
+
+
+**相关链接：**
 
 参考的说明[http://cyzus.github.io/2015/06/21/github-build-blog/](http://cyzus.github.io/2015/06/21/github-build-blog/)
 
