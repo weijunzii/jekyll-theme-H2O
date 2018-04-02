@@ -1,10 +1,10 @@
 ---
 layout: post
 title: '使用github搭建个人博客'
-subtitle: '看了不吃亏哦～'
+subtitle: '紧张刺激又有趣'
 date: 2018-04-02
 categories: 技术
-cover: 'https://bing.ioliu.cn/photo/EtretatSunrise_ZH-CN10891175350?force=ranking_1'
+cover: 'https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-0.3.5&s=710cc626ae695b4a396de11ed871e415&auto=format&fit=crop&w=1950&q=80'
 tags: 博客 github
 ---
 
@@ -102,7 +102,7 @@ tags: 博客 github
 
 
 
-![52267157278](C:\Users\ASUS\AppData\Local\Temp\1522671572782.png)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-f606e86bd7d16ee9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
