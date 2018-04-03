@@ -24,9 +24,9 @@ tags: 博客 github
 
 没什么好说的，要用 github 的服务，注册一下非常正常。[https://github.com/](https://github.com/)
 
-这一步是最简单的一步了，省略不写
+这一步是最简单的一步了，省略不写。
 
-#2  新建一个库
+# 2  新建一个库
 
 在 github 那新建一个库
 
@@ -158,11 +158,11 @@ tags: 博客 github
 
 ![image.png](https://upload-images.jianshu.io/upload_images/2989110-5f7cd2580f41895e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###修改封面
+### 修改封面
 
 ![image.png](https://upload-images.jianshu.io/upload_images/2989110-5164b31454b2724d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###修改个人介绍
+### 修改个人介绍
 
 ![image.png](https://upload-images.jianshu.io/upload_images/2989110-86ae80125e3e3ed8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
