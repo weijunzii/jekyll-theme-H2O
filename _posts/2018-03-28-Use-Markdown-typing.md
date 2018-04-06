@@ -3,6 +3,7 @@ layout: post
 title: '用 Markdown 排版'
 subtitle: '看了不吃亏哦～'
 date: 2018-03-28
+author: 伪君子
 categories: 技术
 cover: 'https://images.unsplash.com/photo-1518172001620-cd0e03e41ff4?ixlib=rb-0.3.5&s=9b2b996cbae53d6b9d97e8d2629cf565&auto=format&fit=crop&w=1955&q=80'
 tags: Markdown 排版
@@ -45,11 +46,11 @@ Markdown Here 这个插件支持自己修改 CSS 样式，如果有 CSS 基础�
 
 阳志平开源的 CSS 样式：
 
->[￼https://github.com/veganshe/CodeBlock/blob/master/Markdown-here/markdown-here-yzp.css￼](￼https://github.com/veganshe/CodeBlock/blob/master/Markdown-here/markdown-here-yzp.css￼)
+[￼https://github.com/veganshe/CodeBlock/blob/master/Markdown-here/markdown-here-yzp.css￼](￼https://github.com/veganshe/CodeBlock/blob/master/Markdown-here/markdown-here-yzp.css￼)
 
 李笑来开源的 CSS 样式：
 
->[https://gist.github.com/xiaolai/aa190255b7dde302d10208ae247fc9f2](https://gist.github.com/xiaolai/aa190255b7dde302d10208ae247fc9f2)
+[https://gist.github.com/xiaolai/aa190255b7dde302d10208ae247fc9f2](https://gist.github.com/xiaolai/aa190255b7dde302d10208ae247fc9f2)
 
 把 CSS 样式复制到 Markdown Here 那就好了
 

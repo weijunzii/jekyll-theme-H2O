@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '使用github搭建个人博客'
+title: '使用 GitHub 搭建个人博客'
 subtitle: '紧张刺激又有趣'
 date: 2018-04-02
+author: 伪君子
 categories: 技术
 cover: 'https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-0.3.5&s=710cc626ae695b4a396de11ed871e415&auto=format&fit=crop&w=1950&q=80'
-tags: 博客 github
+tags: 博客 GitHub
 ---
 
 * content
@@ -18,17 +19,17 @@ tags: 博客 github
 
 文章主要分6个部分，需要懂一点点 HTML 和 CSS ，最需要的是不认输的精神。
 
-# 1  注册 github
+# 1  注册 GitHub
 
 
 
-没什么好说的，要用 github 的服务，注册一下非常正常。[https://github.com/](https://github.com/)
+没什么好说的，要用 GitHub 的服务，注册一下非常正常。[https://github.com/](https://github.com/)
 
 这一步是最简单的一步了，省略不写。
 
 # 2  新建一个库
 
-在 github 那新建一个库
+在 GitHub 那新建一个库
 
 ![](https://upload-images.jianshu.io/upload_images/2989110-9cc70efff22ea703.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -68,9 +69,9 @@ tags: 博客 github
 
 # 3  下载客户端
 
-先下载 github 的客户端，然后安装。 [https://desktop.github.com/](https://desktop.github.com/)
+先下载 GitHub 的客户端，然后安装。 [https://desktop.github.com/](https://desktop.github.com/)
 
-登录 github ，然后选择第三个 Clone a repository 
+登录 GitHub ，然后选择第三个 Clone a repository 
 
 
 
@@ -142,7 +143,7 @@ tags: 博客 github
 
 # 5  我的搭建
 
-我是自己在 github 那 fork 了一份模板，然后修改的。
+我是自己在 GitHub 那 fork 了一份模板，然后修改的。
 
 [https://github.com/kaeyleo/jekyll-theme-H2O
 
@@ -178,7 +179,7 @@ _posts 文件夹里面就是你写的博文，要用 markdown 语法写，不然
 
 参考的说明[http://cyzus.github.io/2015/06/21/github-build-blog/](http://cyzus.github.io/2015/06/21/github-build-blog/)
 
-Github 的说明[https://pages.github.com/](https://pages.github.com/)
+GitHub 的说明[https://pages.github.com/](https://pages.github.com/)
 
 使用的模板[https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)
 
