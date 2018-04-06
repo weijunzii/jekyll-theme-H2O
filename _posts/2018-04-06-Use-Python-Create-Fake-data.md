@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: '使用 Python 伪造数据'
 subtitle: '真真假假，假假真真'
@@ -20,6 +19,8 @@ tags: Python 伪造
 运行环境是 Python3， Win10，编译器是 Pycharm。
 
 # 1  个人数据
+
+***
 
 使用的是 [faker](https://github.com/joke2k/faker) 这个包，安装的过程直接省去。下面这段代码是生成简单的个人信息。
 
@@ -74,6 +75,8 @@ print(fake.profile(fields=None, sex=None))
 
 # 2  爬虫 user_agent 
 
+***
+
 运行爬虫的时候总会加上 user_agent，每一次都是找一堆 user_agent，然后堆在一起，最后用 random 随机选择一个。
 
 ```python
@@ -124,9 +127,15 @@ print(fake.user_agent())
 
 # 3  相关说明
 
+***
 
 
-faker 的 GitHub：[https://github.com/joke2k/faker](https://github.com/joke2k/faker)
 
-faker 的说明文档：[https://faker.readthedocs.io/](https://faker.readthedocs.io/)
+faker 的 GitHub：
+
+[https://github.com/joke2k/faker](https://github.com/joke2k/faker)
+
+faker 的说明文档：
+
+[https://faker.readthedocs.io/](https://faker.readthedocs.io/)
 
