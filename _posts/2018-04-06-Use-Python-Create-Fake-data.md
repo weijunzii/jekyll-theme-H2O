@@ -1,3 +1,5 @@
+---
+
 layout: post
 title: '使用 Python 伪造数据'
 subtitle: '真真假假，假假真真'
@@ -7,8 +9,10 @@ categories: 技术
 cover: 'https://cdn.pixabay.com/photo/2017/09/23/06/52/mannequin-2777963_1280.jpg'
 tags: Python 伪造
 
-[TOC]
+---
 
+* content
+{:toc}
 # 0  前言
 
  某些时刻，因为个人数据不想泄露出去，所以需要伪造一下数据；也有使用爬虫的时候需要换一下 `user agent` ，一个用到旧会被发现的。
@@ -57,7 +61,7 @@ print(fake.simple_profile(sex=None))
 
 如果觉得不够详细，可以想下面这样做。
 
-```Python
+```python
 from faker import Faker
 
 fake = Faker('zh_CN')  # en_US,zh_CN,zh_TW
@@ -72,7 +76,7 @@ print(fake.profile(fields=None, sex=None))
 
 运行爬虫的时候总会加上 user_agent，每一次都是找一堆 user_agent，然后堆在一起，最后用 random 随机选择一个。
 
-```
+```python
 user_agent = ["Mozilla/5.0 (Windows NT 10.0; WOW64)", 'Mozilla/5.0 (Windows NT 6.3; WOW64)',
               'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
               'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko',
@@ -104,7 +108,7 @@ user_agent = ["Mozilla/5.0 (Windows NT 10.0; WOW64)", 'Mozilla/5.0 (Windows NT 6
 
 多种样式，能满足大部分需求。
 
-```
+```python
 from faker import Faker
 
 fake = Faker('zh_CN')  # en_US,zh_CN,zh_TW
