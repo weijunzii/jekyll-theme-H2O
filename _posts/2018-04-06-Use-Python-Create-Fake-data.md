@@ -4,7 +4,7 @@ subtitle: '真真假假，假假真真'
 date: 2018-04-06
 author: 伪君子
 categories: 技术
-cover: 'https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-0.3.5&s=710cc626ae695b4a396de11ed871e415&auto=format&fit=crop&w=1950&q=80'
+cover: 'https://cdn.pixabay.com/photo/2017/09/23/06/52/mannequin-2777963_1280.jpg'
 tags: Python 伪造
 
 [TOC]
