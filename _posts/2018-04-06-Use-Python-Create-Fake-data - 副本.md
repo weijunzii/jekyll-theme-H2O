@@ -5,7 +5,7 @@ subtitle: '真真假假，假假真真'
 date: 2018-04-06
 author: 伪君子
 categories: 技术
-cover: 'https://cdn.pixabay.com/photo/2017/09/23/06/52/mannequin-2777963_1280.jpg'
+cover: ''
 tags: Python 伪造
 
 ---
