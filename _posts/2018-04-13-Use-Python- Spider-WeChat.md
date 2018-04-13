@@ -12,13 +12,13 @@ tags: Python 爬虫 微信
 
 * content
 {:toc}
-# 0  前言
+#  0  前言
 
 ***
 
 最近想搞一点秘密的小东西，然后就发现了一个非常有用的库 *wechatsogou*，听个名字你就大概能猜出是什么来的了，基于搜狗微信搜索的微信公众号爬虫接口，有了这个就可以玩起来了。
 
-# 1  环境说明
+#  1  环境说明
 
 ***
 
@@ -168,7 +168,7 @@ print(ws_api.get_sugg('美女'))  # 获取关键字联想词
 分别试试美女，谷歌，腾讯，结果还行。
 ![](https://upload-images.jianshu.io/upload_images/2989110-7d10c58fd6499367.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-# 3  相关说明
+#  3  相关说明
 
 ***
 
