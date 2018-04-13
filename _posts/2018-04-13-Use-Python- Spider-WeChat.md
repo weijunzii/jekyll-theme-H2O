@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '用 Python 爬微信公众号'
-subtitle: '真真假假，假假真真'
+subtitle: '基于搜狗微信搜索的微信公众号爬虫'
 date: 2018-04-06
 author: 伪君子
 categories: 技术
@@ -12,10 +12,16 @@ tags: Python 爬虫 微信
 
 * content
 {:toc}
-#0  前言
+# 0  前言
+
+***
+
 最近想搞一点秘密的小东西，然后就发现了一个非常有用的库 *wechatsogou*，听个名字你就大概能猜出是什么来的了，基于搜狗微信搜索的微信公众号爬虫接口，有了这个就可以玩起来了。
 
-#1  环境说明
+# 1  环境说明
+
+***
+
 Win10 系统下 [Python3](http://mp.weixin.qq.com/s/cubyNsqX4Hg1Zo7CChY8Aw)，编译器是 [Pycharm](http://mp.weixin.qq.com/s/ygVuD0UOFGxtwWfbQHXDAg)，需要安装 [wechatsogou](https://github.com/Chyroc/WechatSogou) 这个库
 
 
@@ -23,8 +29,9 @@ Win10 系统下 [Python3](http://mp.weixin.qq.com/s/cubyNsqX4Hg1Zo7CChY8Aw)，�
 这里只介绍 [Pycharm](http://mp.weixin.qq.com/s/a06B-wLMyRWT1uY7uTP7lA) 安装第三方包的方法。
 <p><img src="http://image.135editor.com/files/users/404/4043688/201802/FHGW8HvR_rrTj.png" alt="一" style="box-shadow: rgb(102, 102, 101) 3.53553px 3.53553px 8px; margin: 0px 8px 8px 0px; border-radius: 4px;" _src="http://image.135editor.com/files/users/404/4043688/201802/FHGW8HvR_rrTj.png"></p><p><img src="http://image.135editor.com/files/users/404/4043688/201802/tIAVkLmj_DYYr.png" alt="二" style="box-shadow: rgb(102, 102, 101) 3.53553px 3.53553px 8px; margin: 0px 8px 8px 0px; border-radius: 4px;" _src="http://image.135editor.com/files/users/404/4043688/201802/tIAVkLmj_DYYr.png"></p>
 
+# 2  相关代码
 
-#2  相关代码
+***
 
 ## 2.1  搜索公众号信息
 
@@ -68,7 +75,7 @@ print(ws_api.search_article('萧北月'))  # 关键词是萧北月，不是说�
 ```
 运行结果是一大堆的东西，，这里只能爬取一部分的文章
 ![](https://upload-images.jianshu.io/upload_images/2989110-ab4b45b6e9cf3941.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-```python
+```
 {'article': {'title': '用Python 制作微信好友个性签名词云图', 
 'url': 'http://mp.weixin.qq.com/s?src=11&timestamp=1523618973&ver=814&signature=vBZrfexBBbHDqRnEJyMsdimKvg8fJoyg8ca1iZKYUdw63s6kNtkI1H-0hz0glHvQhGKKYMntSPsm8YbqIrpnC4F3-cKLbjBZxtlFTdLEiP7NlQLpX8ZntMWOpXoWJ&new=1', 
              
@@ -86,7 +93,7 @@ print(ws_api.search_article('萧北月'))  # 关键词是萧北月，不是说�
 
 ## 2.3  首页热门页
 
-```python
+```
 from pprint import pprint
 from wechatsogou import WechatSogouAPI, WechatSogouConst
 
@@ -161,6 +168,9 @@ print(ws_api.get_sugg('美女'))  # 获取关键字联想词
 分别试试美女，谷歌，腾讯，结果还行。
 ![](https://upload-images.jianshu.io/upload_images/2989110-7d10c58fd6499367.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#3  相关说明
+# 3  相关说明
+
+***
+
 WechatSogou 的说明文档：[https://github.com/Chyroc/WechatSogou](https://github.com/Chyroc/WechatSogou)
 
