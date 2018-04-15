@@ -18,9 +18,11 @@ tags: 破解
 
 ***
 
-没什么好说的了
+Pycharm 社区版没有专业版的部分功能，有人喜欢使用教育部，有人不喜欢[教育版](http://mp.weixin.qq.com/s/VLA6_dnnyOzJUuXKgf_Umg)，那就破解专业版吧。
 
+说是破解 Pycharm ，其实是 JetBrains 系列的都能破解 ，只是我这里只说 Pycharm 的破解而已，有空的话，可以去试试破解 JetBrains 系列软件。
 
+如果是学生，可以去**[申请学生授权](https://sales.jetbrains.com/hc/zh-cn/articles/207154369-%E5%AD%A6%E7%94%9F%E6%8E%88%E6%9D%83%E7%94%B3%E8%AF%B7%E6%96%B9%E5%BC%8F)**, 不用这么麻烦；如果可以，请支持正版。
 
 #   1  下载
 
@@ -35,6 +37,10 @@ tags: 破解
 
 
 #   2  破解
+
+***
+
+
 
 这里简单介绍两种方法
 
