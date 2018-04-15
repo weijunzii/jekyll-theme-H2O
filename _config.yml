@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: '伪君子的独立博客'
+title: '伪君子的梦呓'
 description: '伪君子，初学者/伪极客/灵魂歌手师。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '伪君子, 伪君子的独立博客, 伪君子的博客, C, C++, Python,CSS,HTML'
+keyword: '伪君子, 伪君子的梦呓, 伪君子的博客, C, C++, Python,CSS,HTML'
 url: 'https://weijunzii.github.io/' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -61,7 +61,7 @@ recommend-condition-size: 12 # a tag will be recommended if the size of it is mo
 # Build settings
 paginate: 6
 paginate_path: 'page:num'
-exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md','archives']
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
 
 # Markdown
 markdown: kramdown
