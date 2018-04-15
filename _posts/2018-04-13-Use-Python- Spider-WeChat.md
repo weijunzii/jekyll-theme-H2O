@@ -36,22 +36,26 @@ Win10 系统下 [Python3](http://mp.weixin.qq.com/s/cubyNsqX4Hg1Zo7CChY8Aw)，�
 ## 2.1  搜索公众号信息
 
  ```python
-	import wechatsogou  # 导入库
-        ws_api = wechatsogou.WechatSogouAPI()  # 初始化
-        print(ws_api.search_gzh('萧北月'))  #  搜索公众号
+import wechatsogou  # 导入库
+ws_api = wechatsogou.WechatSogouAPI()  # 初始化
+print(ws_api.search_gzh('萧北月'))  #  搜索公众号
  ```
 代码运行后会显示一个验证码，自己人工识别一下，再把验证码输入到```please input code:```那就好（6个字符的是搜狗的验证码，4个字符的是微信的验证码）
 
 ![运行结果](https://upload-images.jianshu.io/upload_images/2989110-f513b1771f24824f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 *运行结果:*
 
-<pre><code class="language-css">[{'open_id': 'oIWsFt_dPYnbltzh3qPwi3J7XqJQ',
+<pre><code class="language-css">
+
+[{'open_id': 'oIWsFt_dPYnbltzh3qPwi3J7XqJQ',
  'profile_url': 'http://mp.weixin.qq.com/profile?src=3&timestamp=1523616541&ver=1&signature=9yFqnyyzkqK3sQAV6KIW9OTb4BXx0lLrKzpdUHK6A5XaTmAtB8TeoKTM7vdE89u5adoYWw2OcQleRlMtOF7rw==', 
 'headimage': 'http://img01.sogoucdn.com/app/a/100520090/oIWsFt_dPYnbltzh3qPwi3J7XqJQ', 
 'wechat_name': '萧北月', 'wechat_id': 'beiyue_lbj', 
 'qrcode': 'http://mp.weixin.qq.com/rr?src=3×tamp=1523616541&ver=1&signature=WVOGii0G4xYwtQWrMW5Ha2ufILN0pB992K5zAIhSiWXOh8Nd0HOoliGVjm5eIla0sPZ5YW7QvzMAwrVsB2UjPnNGFk4UwDB6kDGNbP4k=', 
 'introduction': '分享我的所思所想,也分享实用又有趣的东西', 
-'authentication': '\n', 'post_perm': -1, 'view_perm': -1}]</code></pre>
+'authentication': '\n', 'post_perm': -1, 'view_perm': -1}]
+
+</code></pre>
 
 把 profile_url 是最近10条群发页链接，把后链接复制到浏览器打开，可以看见下面这样的东西。
 ![](https://upload-images.jianshu.io/upload_images/2989110-f7bdde45620a0091.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
