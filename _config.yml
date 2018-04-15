@@ -23,7 +23,7 @@ bio: '菜鸟，人生初学者'
 avatar: '/assets/img/profile.png'
 
 # Search
-search: false
+search: true
 
 # Night mode
 nightMode: true

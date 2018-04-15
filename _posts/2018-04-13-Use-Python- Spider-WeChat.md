@@ -35,20 +35,20 @@ Win10 系统下 [Python3](http://mp.weixin.qq.com/s/cubyNsqX4Hg1Zo7CChY8Aw)，�
 
 ## 2.1  搜索公众号信息
 
- ```python
-import wechatsogou  # 导入库
+<pre><code class="language-css">import wechatsogou  # 导入库
 ws_api = wechatsogou.WechatSogouAPI()  # 初始化
 print(ws_api.search_gzh('萧北月'))  #  搜索公众号
- ```
+</code></pre>
+
 代码运行后会显示一个验证码，自己人工识别一下，再把验证码输入到```please input code:```那就好（6个字符的是搜狗的验证码，4个字符的是微信的验证码）
 
 ![运行结果](https://upload-images.jianshu.io/upload_images/2989110-f513b1771f24824f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 *运行结果:*
 
-<pre><code class="language-css">
+<pre><code class="language-css">[{'open_id': 'oIWsFt_dPYnbltzh3qPwi3J7XqJQ',
 
-[{'open_id': 'oIWsFt_dPYnbltzh3qPwi3J7XqJQ',
- 'profile_url': 'http://mp.weixin.qq.com/profile?src=3&timestamp=1523616541&ver=1&signature=9yFqnyyzkqK3sQAV6KIW9OTb4BXx0lLrKzpdUHK6A5XaTmAtB8TeoKTM7vdE89u5adoYWw2OcQleRlMtOF7rw==', 
+'profile_url': 'http://mp.weixin.qq.com/profile?src=3&timestamp=1523616541&ver=1&signature=9yFqnyyzkqK3sQAV6KIW9OTb4BXx0lLrKzpdUHK6A5XaTmAtB8TeoKTM7vdE89u5adoYWw2OcQleRlMtOF7rw==', 
+
 'headimage': 'http://img01.sogoucdn.com/app/a/100520090/oIWsFt_dPYnbltzh3qPwi3J7XqJQ', 
 'wechat_name': '萧北月', 'wechat_id': 'beiyue_lbj', 
 'qrcode': 'http://mp.weixin.qq.com/rr?src=3×tamp=1523616541&ver=1&signature=WVOGii0G4xYwtQWrMW5Ha2ufILN0pB992K5zAIhSiWXOh8Nd0HOoliGVjm5eIla0sPZ5YW7QvzMAwrVsB2UjPnNGFk4UwDB6kDGNbP4k=', 
@@ -72,8 +72,7 @@ headimage 就是我公众号的头像；wechat_id 是我公众号的微信 id；
 
 代码如下
 
-<pre><code class="language-python">
-import wechatsogou
+<pre><code class="language-python">import wechatsogou
 ws_api = wechatsogou.WechatSogouAPI()
 print(ws_api.search_article('萧北月'))  # 关键词是萧北月，不是说爬我公众号的文章
 </code></pre>
@@ -81,8 +80,7 @@ print(ws_api.search_article('萧北月'))  # 关键词是萧北月，不是说�
 运行结果是一大堆的东西，，这里只能爬取一部分的文章
 ![](https://upload-images.jianshu.io/upload_images/2989110-ab4b45b6e9cf3941.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-<pre><code class="language-css">
-{'article': {'title': '用Python 制作微信好友个性签名词云图', 
+<pre><code class="language-css">{'article': {'title': '用Python 制作微信好友个性签名词云图', 
 'url': 'http://mp.weixin.qq.com/s?src=11&timestamp=1523618973&ver=814&signature=vBZrfexBBbHDqRnEJyMsdimKvg8fJoyg8ca1iZKYUdw63s6kNtkI1H-0hz0glHvQhGKKYMntSPsm8YbqIrpnC4F3-cKLbjBZxtlFTdLEiP7NlQLpX8ZntMWOpXoWJ&new=1', 
              
 'imgs': ['http://img01.sogoucdn.com/net/a/04/link?appid=100520033&url=https://mmbiz.qlogo.cn/mmbiz_jpg/Wz5hZDg47G3skibMYwMeVYxTl3vSNbdBXAib3FqhUMKtq8VUF5T0Rlib4iaHww8eLc7Xib0XtJrfVxbqPYzFuwKxttQ/0?wx_fmt=jpeg'], 
@@ -100,8 +98,7 @@ print(ws_api.search_article('萧北月'))  # 关键词是萧北月，不是说�
 
 ## 2.3  首页热门页
 
-<pre><code class="language-python">
-from pprint import pprint
+<pre><code class="language-python">from pprint import pprint
 from wechatsogou import WechatSogouAPI, WechatSogouConst
 
 ws_api = WechatSogouAPI()
@@ -130,8 +127,7 @@ for i in gzh_articles:
 
 ## 2.4  公众号最近文章
 
-<pre><code class="language-css">
-import wechatsogou
+<pre><code class="language-css">import wechatsogou
 
 ws_api = wechatsogou.WechatSogouAPI()
 print(ws_api.get_gzh_article_by_history('萧北月'))  #这次是真的爬我公众号的文章
@@ -141,8 +137,7 @@ print(ws_api.get_gzh_article_by_history('萧北月'))  #这次是真的爬我公
 
 这里只能爬最近 10 篇的文章，不过也足够了。
 
-<pre><code class="language-css">
-{'gzh': {'wechat_name': '萧北月', 'wechat_id': 'beiyue_lbj', 'introduction': '分享我的所思所想，也分享实用又有趣的东西', 'authentication': '分享我的所思所想，也分享实用又有趣的东西', 'headimage': 'http://wx.qlogo.cn/mmhead/Q3auHgzwzM5RZypia1GRRNpCEFqFdc50eDT4ADqDbbtibAm3embortYA/0'},
+<pre><code class="language-css">{'gzh': {'wechat_name': '萧北月', 'wechat_id': 'beiyue_lbj', 'introduction': '分享我的所思所想，也分享实用又有趣的东西', 'authentication': '分享我的所思所想，也分享实用又有趣的东西', 'headimage': 'http://wx.qlogo.cn/mmhead/Q3auHgzwzM5RZypia1GRRNpCEFqFdc50eDT4ADqDbbtibAm3embortYA/0'},
 
 'article': [{'send_id': 1000000020, 'datetime': 1523019431, 'type': '49', 'main': 1, 
 
@@ -159,10 +154,9 @@ print(ws_api.get_gzh_article_by_history('萧北月'))  #这次是真的爬我公
 
 如果没猜错，send_id 就是发的第几篇文章；datetime 我没看透，不知道 10 位时间戳是什么意思； type 是消息类型，网页端最近10条消息页只有49，表示图文消息；main 是群发的第几条消息，1 是第一条；content_url 是文章链接；source_url 是原文链接；copyright_stat 表示是否原创，11是原创。
 
-##2.5  关键词联想
+##  2.5  关键词联想
 
-<pre><code class="language-python">
-import wechatsogou
+<pre><code class="language-python">import wechatsogou
 
 ws_api = wechatsogou.WechatSogouAPI()
 print(ws_api.get_sugg('美女'))  # 获取关键字联想词
