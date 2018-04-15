@@ -92,32 +92,30 @@ Pycharm 社区版没有专业版的部分功能，有人喜欢使用教育部，
 
 输入如下激活码
 
->```
->ThisCrackLicenseId-{
->"licenseId":"ThisCrackLicenseId",
->"licenseeName":"Boss",
->"assigneeName":"",
->"assigneeEmail":"6666666@163.com",
->"licenseRestriction":"For Rover12421 Crack, Only Test! Please support genuine!!!",
->"checkConcurrentUse":false,
->"products":[
->{"code":"II","paidUpTo":"2099-12-31"},
->{"code":"DM","paidUpTo":"2099-12-31"},
->{"code":"AC","paidUpTo":"2099-12-31"},
->{"code":"RS0","paidUpTo":"2099-12-31"},
->{"code":"WS","paidUpTo":"2099-12-31"},
->{"code":"DPN","paidUpTo":"2099-12-31"},
->{"code":"RC","paidUpTo":"2099-12-31"},
->{"code":"PS","paidUpTo":"2099-12-31"},
->{"code":"DC","paidUpTo":"2099-12-31"},
->{"code":"RM","paidUpTo":"2099-12-31"},
->{"code":"CL","paidUpTo":"2099-12-31"},
->{"code":"PC","paidUpTo":"2099-12-31"}
->],
->"hash":"2911276/0",
->"gracePeriodDays":7,
->"autoProlongated":false}
->```
+<pre><code class="language-css">ThisCrackLicenseId-{
+"licenseId":"ThisCrackLicenseId",
+"licenseeName":"Boss",
+"assigneeName":"",
+"assigneeEmail":"6666666@163.com",
+"licenseRestriction":"For Rover12421 Crack, Only Test! Please support genuine!!!",
+"checkConcurrentUse":false,
+"products":[
+{"code":"II","paidUpTo":"2099-12-31"},
+{"code":"DM","paidUpTo":"2099-12-31"},
+{"code":"AC","paidUpTo":"2099-12-31"},
+{"code":"RS0","paidUpTo":"2099-12-31"},
+{"code":"WS","paidUpTo":"2099-12-31"},
+{"code":"DPN","paidUpTo":"2099-12-31"},
+{"code":"RC","paidUpTo":"2099-12-31"},
+{"code":"PS","paidUpTo":"2099-12-31"},
+{"code":"DC","paidUpTo":"2099-12-31"},
+{"code":"RM","paidUpTo":"2099-12-31"},
+{"code":"CL","paidUpTo":"2099-12-31"},
+{"code":"PC","paidUpTo":"2099-12-31"}
+],
+"hash":"2911276/0",
+"gracePeriodDays":7,
+"autoProlongated":false}</code></pre>
 
 点击 OK 就激活成功了.
 
