@@ -142,3 +142,5 @@ Pycharm 社区版没有专业版的部分功能，有人喜欢使用教育部，
 感谢  [http://idea.lanyus.com](http://idea.lanyus.com/)  的破解补丁
 
 感谢 [http://idea.lanyus.com/help/help.html](http://idea.lanyus.com/help/help.html) 的说明
+
+![](https://upload-images.jianshu.io/upload_images/2989110-5e96f3a9a9204f3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

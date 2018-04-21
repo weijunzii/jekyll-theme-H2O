@@ -139,3 +139,4 @@ faker 的说明文档：
 
 [https://faker.readthedocs.io/](https://faker.readthedocs.io/)
 
+![](https://upload-images.jianshu.io/upload_images/2989110-5e96f3a9a9204f3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
