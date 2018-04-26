@@ -68,8 +68,8 @@ FastStone Capture 一个很好用的软件，操作起来如流水一般。
 ![](https://upload-images.jianshu.io/upload_images/2989110-30ee1648b77bea05.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 在 **Save Page Now** 下面的框内输入链接，点击 **SAVE PAGE**，然后等网站保存，时间可能有点久。
 
-## 3.3  [http://telegra.ph/] (http://telegra.ph/)
-如果是不喜欢上面的做法，可以选择一个麻烦一点的做法，把文章的文字复制到 [http://telegra.ph/] (http://telegra.ph/)，再把文章的图片上传，基本上就可以了。
+## 3.3  [http://telegra.ph/](http://telegra.ph/)
+如果是不喜欢上面的做法，可以选择一个麻烦一点的做法，把文章的文字复制到 [http://telegra.ph/](http://telegra.ph/)，再把文章的图片上传，基本上就可以了。
 ![](https://i.imgur.com/oulhumU.png)
 如果访问不了，一般都是移动的网，换成别的网络运营商就好。（之前微信封过 telegra.ph 的链接，最近解封了，不知道以后会不会封）
 
