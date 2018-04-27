@@ -1,12 +1,12 @@
 ---
 layout: post
-title: '标题'
-subtitle: '介绍'
-date: 2018-04-21
+title: '让你的二维码变得好看'
+subtitle: '彩色二维码了解一下~~'
+date: 2018-04-27
 author: 伪君子
-categories: 技术，编程
+categories: 技术
 cover: ''
-tags: 编程 有趣的 网站 孩子
+tags: 有趣的 二维码
 
 ---
 
