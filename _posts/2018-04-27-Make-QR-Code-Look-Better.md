@@ -61,6 +61,9 @@ iOS 请用自带的相机，更加方便。
 ![](https://upload-images.jianshu.io/upload_images/2989110-353e89fcf6268668.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 把该弄的都弄好后，点击右下角的小勾勾就开始生成了。
+
+是网页不假，可是这个只能网站中嵌入，有点坑...
+
 ##  2.4  Android 
 据我了解，**Awesome-QR** 的开发者只把软件上架到了谷歌 Play 商店，所以，没【翻越思维的墙】的朋友就看缘分了。
 
@@ -93,4 +96,4 @@ EFQRCode 的 GitHub 链接：https://github.com/EyreFree/EFQRCode
 
 最后，请允许我皮一下~~
 
-![关注微信公众号，和我聊聊天](https://upload-images.jianshu.io/upload_images/2989110-59b20515225f9594.gif?imageMogr2/auto-orient/strip)
+![关注微信公众号，和我聊聊天](https://upload-images.jianshu.io/upload_images/2989110-4a62ca05ab3d13ca.gif?imageMogr2/auto-orient/strip)
