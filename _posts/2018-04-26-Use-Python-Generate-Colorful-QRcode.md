@@ -32,11 +32,11 @@ Win10 系统下 Python3，编译器是 Pycharm，需要安装 MyQR 这个库。
 ![](http://upload-images.jianshu.io/upload_images/2989110-eba62bb3986f0d64.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](http://upload-images.jianshu.io/upload_images/2989110-c5f3b215895c51cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 Pip 安装第三方库的方法
-```python
-pip install myqr
-```
+
+<pre><code class="language-python">pip install myqr</code></pre>
 
 myqr 可以替换成你想安装的第三方库
+
 #  2  相关代码
 
 ***
