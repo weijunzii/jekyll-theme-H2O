@@ -45,13 +45,11 @@ myqr 可以替换成你想安装的第三方库
 
 ###  2.1 跑代码
 先导入 MyQR 这个库
-```
+
 <pre><code class="language-python">from MyQR import myqr</code></pre>
-```
 
 再加上需要的代码
 
-```
 <pre><code class="language-python">version, level, qr_name = myqr.run(
     words='dhb cdfb64%vjk',  # 不支持中文，支持 0~9,a~z, A~Z 以及常见的常用英文标点符号和空格
     version=2,  # 版本，从 1至 40
@@ -63,7 +61,6 @@ myqr 可以替换成你想安装的第三方库
     save_name='1d6.bmp',  # 命名随便都行，格式可以是 jpg,png,bmp,gif
     save_dir="F:\二维码"  # 路径要存在
 )</code></pre>
-```
 
 words 那里就是你想让二维码被识别出来后的文字（好气哦，居然不支持中文）
 
@@ -85,11 +82,9 @@ save_dir 是保存文件的目录，如果想保存在当前文件的目录下�
 ### 2.2  命令行
 先 cd 到图片的目录下
 
-```
 <pre><code class="language-python">C:\Users\ASUS> cd F:\二维码
 C:\Users\ASUS>F:
 F:\二维码></code></pre>
-```
 
 然后输入 **myqr 666 -p 下载.png -c**
 
