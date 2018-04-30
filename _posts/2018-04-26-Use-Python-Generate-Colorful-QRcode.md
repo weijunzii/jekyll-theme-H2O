@@ -45,12 +45,14 @@ myqr 可以替换成你想安装的第三方库
 
 ###  2.1 跑代码
 先导入 MyQR 这个库
-```python
-from MyQR import myqr
 ```
+<pre><code class="language-python">from MyQR import myqr</code></pre>
+```
+
 再加上需要的代码
-```python
-version, level, qr_name = myqr.run(
+
+```
+<pre><code class="language-python">version, level, qr_name = myqr.run(
     words='dhb cdfb64%vjk',  # 不支持中文，支持 0~9,a~z, A~Z 以及常见的常用英文标点符号和空格
     version=2,  # 版本，从 1至 40
     level='H',  # 纠错等级，范围是L、M、Q、H，从左到右依次升高
@@ -60,8 +62,9 @@ version, level, qr_name = myqr.run(
     brightness=1.0,  # 亮度
     save_name='1d6.bmp',  # 命名随便都行，格式可以是 jpg,png,bmp,gif
     save_dir="F:\二维码"  # 路径要存在
-)
+)</code></pre>
 ```
+
 words 那里就是你想让二维码被识别出来后的文字（好气哦，居然不支持中文）
 
 picture 那里说文件要放在目录下的意思就是，代码在哪个目录，图片就要在哪个目录。
@@ -81,13 +84,13 @@ save_dir 是保存文件的目录，如果想保存在当前文件的目录下�
 
 ### 2.2  命令行
 先 cd 到图片的目录下
-```python
-C:\Users\ASUS> cd F:\二维码
 
-C:\Users\ASUS>F:
-
-F:\二维码>
 ```
+<pre><code class="language-python">C:\Users\ASUS> cd F:\二维码
+C:\Users\ASUS>F:
+F:\二维码></code></pre>
+```
+
 然后输入 **myqr 666 -p 下载.png -c**
 
 myqr 就是库的名字；666 是你想让别人扫描二维码看见的文字；-p 是参数；下载.png 是图片的名字；-c 也是参数，生成彩色的二维码。
