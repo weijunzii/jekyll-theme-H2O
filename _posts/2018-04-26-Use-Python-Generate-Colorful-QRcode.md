@@ -35,6 +35,7 @@ Pip 安装第三方库的方法
 ```python
 pip install myqr
 ```
+
 myqr 可以替换成你想安装的第三方库
 #  2  相关代码
 
