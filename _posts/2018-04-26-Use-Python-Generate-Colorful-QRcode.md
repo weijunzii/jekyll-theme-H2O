@@ -32,7 +32,7 @@ Win10 系统下 Python3，编译器是 Pycharm，需要安装 MyQR 这个库。
 ![](http://upload-images.jianshu.io/upload_images/2989110-eba62bb3986f0d64.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![](http://upload-images.jianshu.io/upload_images/2989110-c5f3b215895c51cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 Pip 安装第三方库的方法
-```
+```python
 pip install myqr
 ```
 myqr 可以替换成你想安装的第三方库
@@ -44,11 +44,11 @@ myqr 可以替换成你想安装的第三方库
 
 ###  2.1 跑代码
 先导入 MyQR 这个库
-```
+```python
 from MyQR import myqr
 ```
 再加上需要的代码
-```
+```python
 version, level, qr_name = myqr.run(
     words='dhb cdfb64%vjk',  # 不支持中文，支持 0~9,a~z, A~Z 以及常见的常用英文标点符号和空格
     version=2,  # 版本，从 1至 40
@@ -80,7 +80,7 @@ save_dir 是保存文件的目录，如果想保存在当前文件的目录下�
 
 ### 2.2  命令行
 先 cd 到图片的目录下
-```
+```python
 C:\Users\ASUS> cd F:\二维码
 
 C:\Users\ASUS>F:
