@@ -1,12 +1,12 @@
 ---
 layout: post
-title: '标题'
-subtitle: '介绍'
-date: 2018-04-21
+title: '用 Python 生成彩色动态二维码'
+subtitle: '彩色动态二维码了解一下~'
+date: 2018-04-26
 author: 伪君子
 categories: 技术，编程
 cover: ''
-tags: 编程 有趣的 网站 孩子
+tags: Python 有趣的 二维码
 
 ---
 
