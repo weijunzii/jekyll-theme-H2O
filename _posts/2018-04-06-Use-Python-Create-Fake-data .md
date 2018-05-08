@@ -12,6 +12,8 @@ tags: Python 伪造
 
 * content
 {:toc}
+
+
 # 0  前言
 
  某些时刻，因为个人数据不想泄露出去，所以需要伪造一下数据；也有使用爬虫的时候需要换一下 `user agent` ，一个用到旧会被发现的。
@@ -139,4 +141,3 @@ faker 的说明文档：
 
 [https://faker.readthedocs.io/](https://faker.readthedocs.io/)
 
-![](https://upload-images.jianshu.io/upload_images/2989110-5e96f3a9a9204f3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

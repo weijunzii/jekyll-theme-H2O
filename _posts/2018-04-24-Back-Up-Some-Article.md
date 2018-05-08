@@ -11,6 +11,8 @@ tags: 经验
 
 * content
 {:toc}
+
+
 #  0  前言
 
 ***
@@ -74,5 +76,3 @@ FastStone Capture 一个很好用的软件，操作起来如流水一般。
 如果访问不了，一般都是移动的网，换成别的网络运营商就好。（之前微信封过 telegra.ph 的链接，最近解封了，不知道以后会不会封）
 
 
-
-![](https://upload-images.jianshu.io/upload_images/2989110-5e96f3a9a9204f3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

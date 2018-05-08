@@ -35,9 +35,7 @@ tags: 博客 GitHub
 
 
 
-或者使用链接的方式，[https://github.com/new
-
-](https://github.com/new)
+或者使用链接的方式，[https://github.com/new](https://github.com/new)
 
 ![建库](https://upload-images.jianshu.io/upload_images/2989110-274c9c0504bc6af2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -145,9 +143,7 @@ tags: 博客 GitHub
 
 我是自己在 GitHub 那 fork 了一份模板，然后修改的。
 
-[https://github.com/kaeyleo/jekyll-theme-H2O
-
-](https://github.com/kaeyleo/jekyll-theme-H2O)
+[https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)
 
 ![image.png](https://upload-images.jianshu.io/upload_images/2989110-0e41573ce047f49d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -177,10 +173,12 @@ _posts 文件夹里面就是你写的博文，要用 markdown 语法写，不然
 
 **相关链接：**
 
-参考的说明[http://cyzus.github.io/2015/06/21/github-build-blog/](http://cyzus.github.io/2015/06/21/github-build-blog/)
+参考的说明:[http://cyzus.github.io/2015/06/21/github-build-blog/](http://cyzus.github.io/2015/06/21/github-build-blog/)
 
-GitHub 的说明[https://pages.github.com/](https://pages.github.com/)
+GitHub 的说明:[https://pages.github.com/](https://pages.github.com/)
 
-使用的模板[https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)
+ jekyll 主题: http://jekyllthemes.org/
 
-![](https://upload-images.jianshu.io/upload_images/2989110-5e96f3a9a9204f3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+使用的模板: [https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)
+
+我的博客地址：[https://github.com/weijunzii/weijunzii.github.io](https://github.com/weijunzii/weijunzii.github.io)

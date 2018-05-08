@@ -12,11 +12,18 @@ tags: 有趣的 二维码
 
 * content
 {:toc}
+
+
 #  0  前言
 
 ***
 
-老老实实地说一句话，我真的看到那种黑白且单调的二维码就觉得烦厌和难受，一直都觉得难受的那种。所以，希望下面的内容对正在看这篇文章的你有所帮助，也希望朋友圈的微商能够长点心，换一个好看的二维码，至少我看了开心啊。
+上一篇介绍了用 [Python 来生成彩色动态的二维码](https://weijunzii.github.io/2018/04/26/Use-Python-Generate-Colorful-QRcode.html)，感觉对一般人来说用起来有点小麻烦，所以，今天介绍一下一些已经封装好了的，至少用起来舒服。
+
+老老实实地说一句话，我真的看到那种黑白且单调的二维码就觉得烦厌和难受，一直都觉得难受的那种。
+
+所以，希望下面的内容对正在看这篇文章的你有所帮助，也希望朋友圈的微商能够学一下下，换一个好看的二维码，至少看了开心啊。
+
 #  1  解码
 
 ***
@@ -45,12 +52,14 @@ iOS 请用自带的相机，更加方便。
 ##  2.2  彩色动态二维码
 **Amazing QR Code**
 
-把链接填入，上传图片或者 Gif，然后点击提交。等一会就会出现二维码了。
+把链接或者文字填入，上传图片或者 Gif，然后点击提交。等一会就会出现二维码了。（填入的内容不支持中文，支持 0~9,a~z, A~Z 以及常见的常用英文标点符号和空格）
 
-建议是上传合适大小的图片或 Gif，请采用正方形或近似正方形的图片，不然会出现一点小偏差。（我这里测试只能填入链接，文本不行）
+建议是上传合适大小的图片或 Gif，请采用正方形或近似正方形的图片，不然会出现一点小偏差。
 
 [http://www.amazing-qrcode.com/](http://www.amazing-qrcode.com/)
 ![](https://upload-images.jianshu.io/upload_images/2989110-3f131aa89382a96f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+有人说生成的二维码是 AV 画质，我认真地想了想，这还真的是
+![生成的二维码](https://upload-images.jianshu.io/upload_images/2989110-e70c105b0cb99abc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ##  2.3  带 logo 的彩色动态二维码
 **Awesome-qr.js** 是英文，这个没办法，希望开发者能够尽快支持中文。
@@ -62,8 +71,10 @@ iOS 请用自带的相机，更加方便。
 
 把该弄的都弄好后，点击右下角的小勾勾就开始生成了。
 
-是网页不假，可是这个只能网站中嵌入，有点坑...
+虽然不直接提供下载，但是，电脑可以选择鼠标右键，再**图片另存为**；手机微信也可以保存图片，大多数的浏览器都可以下载，过程曲折了点，但是也能用。
 
+
+![生成的二维码](https://upload-images.jianshu.io/upload_images/2989110-03b8e1126f91516c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ##  2.4  Android 
 据我了解，**Awesome-QR** 的开发者只把软件上架到了谷歌 Play 商店，所以，没【翻越思维的墙】的朋友就看缘分了。
 
@@ -75,7 +86,7 @@ Awesome-QR 支持条码/QR 二维码解码，也就是说可以通过扫描二�
 ![](https://upload-images.jianshu.io/upload_images/2989110-78fa7170cbbb9046.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 这个应用免费下载，可是有内购。购买专业版后可以不受广告的侵扰、使用 GIF 裁剪工具、不限制 GIF 帧数等。
-
+![生成的二维码](https://upload-images.jianshu.io/upload_images/2989110-32296249d362b093.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ##  2.5  iOS 
 **EFQRCode** 是免费的，与 iPhone、iPad 和 iPod touch 兼容。
 
@@ -86,6 +97,8 @@ Awesome-QR 支持条码/QR 二维码解码，也就是说可以通过扫描二�
 
 ***
 
+你所看到的乔巴二维码都是同一张图片在不同地方折腾出来的，哪一个更好就难说了，自行选择吧~
+
 Amazing QR Code 的 GitHub 链接：https://github.com/sylnsfar/qrcode/blob/master/README-cn.md
 
 Awesome-qr.js 的 GitHub 链接:https://github.com/SumiMakito/Awesome-qr.js
@@ -95,5 +108,4 @@ Awesome-QR 的 GitHub 链接:https://github.com/SumiMakito/AwesomeQRCode
 EFQRCode 的 GitHub 链接：https://github.com/EyreFree/EFQRCode
 
 最后，请允许我皮一下~~
-
-![关注微信公众号，和我聊聊天](https://upload-images.jianshu.io/upload_images/2989110-4a62ca05ab3d13ca.gif?imageMogr2/auto-orient/strip)
+![关注微信公众号，和我的聊天机器人聊聊天](https://upload-images.jianshu.io/upload_images/2989110-4a62ca05ab3d13ca.gif?imageMogr2/auto-orient/strip)
