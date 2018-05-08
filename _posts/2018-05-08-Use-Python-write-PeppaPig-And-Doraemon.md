@@ -2,7 +2,7 @@
 layout: post
 title: '用 Python 画一个小猪佩奇和哆啦 A 梦'
 subtitle: '有意思吧'
-date: 2018-04-21
+date: 2018-05-08
 author: 伪君子
 categories: 技术，编程
 cover: ''
@@ -51,3 +51,5 @@ tags: 编程 有趣的 Python
 哆啦A梦的 GitHub 链接：[https://github.com/PerpetualSmile/Python-Painting-Doraemon](https://github.com/PerpetualSmile/Python-Painting-Doraemon)
 
 事实上还有不少人通过 turtle 这个库实现了有趣的图，推荐去学习一下使用 turtle 这个库，其实也不难，就是需要一点耐心~
+
+声明一下，我只是介绍一下的 ，我不是代码的原作者。
