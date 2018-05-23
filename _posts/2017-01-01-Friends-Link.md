@@ -12,8 +12,18 @@ tags:
 
 * content
 {:toc}
+# 贾顺名
 
+***
 
  [https://blog.jiasm.org/](https://blog.jiasm.org/)
 
-![https://blog.jiasm.org/](https://upload-images.jianshu.io/upload_images/2989110-5e96f3a9a9204f3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+# 菜鸟致敬
+
+***
+
+![](http://rare0716.cn/wp-content/uploads/2018/05/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20171226233347.png)
+
+http://rare0716.xyz/
