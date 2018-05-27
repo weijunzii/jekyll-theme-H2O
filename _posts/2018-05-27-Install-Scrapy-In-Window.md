@@ -6,7 +6,7 @@ date: 2018-05-27
 author: 伪君子
 categories: 技术，编程
 cover: ''
-tags: 编程 有趣的 网站 孩子
+tags: 编程 爬虫
 
 ---
 
@@ -26,17 +26,15 @@ tags: 编程 有趣的 网站 孩子
 ###  安装 lxml
 用 pycharm 安装比较简单一点
 ![](https://upload-images.jianshu.io/upload_images/2989110-a5b7cc59bf45f1a2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-也可以 cmd 内输入  
-```
-pip install lxml
-```
+也可以 cmd 内输入
+
+ <pre><code class="language-python">pip install lxml</code></pre> 
 
 先 Win键+R，再输入 cmd ，回车
 ![](https://upload-images.jianshu.io/upload_images/2989110-f1a6ed1b8e6eb323.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 进来后输入 
-```
-pip install lxml
-```
+
+<pre><code class="language-python">pip install lxml</code></pre>
 
 ![](https://upload-images.jianshu.io/upload_images/2989110-dc4fd9fde090f009.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -47,17 +45,17 @@ pip install lxml
 比如我这台电脑是 Python3.6，32位的就下载 **lxml-4.2.1-cp36-cp36m-win32.whl**
 ![](https://upload-images.jianshu.io/upload_images/2989110-0af9db77e53dea2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 进入 cmd，然后 cd 到文件的路径下，接着就是 
-```
-pip install lxml-4.2.1-cp36-cp36m-win32.whl
-```
+
+<pre><code class="language-python">pip install lxml-4.2.1-cp36-cp36m-win32.whl</code></pre>
+
 命令后面那一部分要和文件名保持一致，也就是 pip install 文件名.whl回车，等一会就安装好了
 ![](https://upload-images.jianshu.io/upload_images/2989110-0afcf74fd9798752.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ###  安装 pyOpenSSL
 用 pycharm 安装或者 
-```
-pip install pyOpenSSL
-```
+
+<pre><code class="language-python">pip install pyOpenSSLl</code></pre>
+
 ![](https://upload-images.jianshu.io/upload_images/2989110-615ca94a9c4fa06e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 >https://pypi.org/project/pyOpenSSL/#files
 
@@ -73,9 +71,9 @@ pip install pyOpenSSL
 电脑是 python3.6 ,32 位的电脑，所以下载的是 Twisted-18.4.0-cp36-cp36m-win32.whl
 ![](https://upload-images.jianshu.io/upload_images/2989110-0a59b9bf72afc001.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 进入 cmd ，cd 到文件目录下，输入命令 
-```
-pip install Twisted-18.4.0-cp36-cp36m-win32.whl
-```
+
+<pre><code class="language-python">pip install Twisted-18.4.0-cp36-cp36m-win32.whl</code></pre>
+
 命令后面那一部分要和文件名保持一致，也就是 pip install 文件名.whl,回车，等一会就安装好了。
 ![](https://upload-images.jianshu.io/upload_images/2989110-9fc893f112f44535.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -90,9 +88,7 @@ pycharm 安装或者 pip install pywin32
 ![](https://upload-images.jianshu.io/upload_images/2989110-03fdd539a024746f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 直接用 pip 安装
 
-```
-pip install Scrapy
-```
+<pre><code class="language-python">pip install Scrapy</code></pre>
 
 ![](https://upload-images.jianshu.io/upload_images/2989110-0302b021563b4ce5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 # 2 说明
@@ -101,9 +97,7 @@ pip install Scrapy
 
 听说用 Anaconda 安装可简单了，一个命令就搞定了，可惜我懒得试了。
 
-```
-conda install Scrapy
-```
+<pre><code class="language-python">conda install Scrapy</code></pre>
 
 Anaconda下载链接：https://www.anaconda.com/download/
 
