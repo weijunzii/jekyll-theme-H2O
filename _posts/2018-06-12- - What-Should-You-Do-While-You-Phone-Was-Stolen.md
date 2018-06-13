@@ -2,7 +2,7 @@
 layout: post
 title: '手机被偷了该怎么办'
 subtitle: '没什么好办法，只能尽量降低损失'
-date: 2018-06-122
+date: 2018-06-12
 author: 伪君子
 categories:
 cover: ''
