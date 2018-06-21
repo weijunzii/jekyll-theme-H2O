@@ -21,9 +21,16 @@ tags: 编程
 给定一个整数数组和一个目标值，找出数组中和为目标值的**两个**数。
 
 你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。
-![](https://upload-images.jianshu.io/upload_images/2989110-aa888246bf44ac6d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+###  示例
 
+给定 nums = [2, 7, 11, 15], target = 9，因为 nums[0] + nums[1] = 2 + 7 = 9，所以返回 [0, 1]
 
+题目链接：
+>[https://leetcode-cn.com/problems/two-sum/description/](https://leetcode-cn.com/problems/two-sum/description/)
+
+![](https://upload-images.jianshu.io/upload_images/2989110-15104bb1f5b584a1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+###  思路
 目标值就是 target，求出两个下标 i、j，要使得 nums[i] + nums[j] = target，返回下标。
 ###  代码
 ```C++
@@ -40,9 +47,9 @@ public:
         for(int i = 0; i < nums.size(); i++) {  
 /*nums.size()就是 nums 中元素的个数，for 循环，从第一个数开始循环，直到小于nums.size()，也就是 4 就结束循环*/
             for(int j = i + 1; j < nums.size(); j++) {  //和上面差不多，也是 for 循环
-                if(nums[i] + nums[j] == target) {  //如果 nums[i] 加 nums[j]等于目标值，那么就进入这个循环
-                    v[0] = i;  //把 i 的值付给 v[0]
-                    v[1] = j;  //把 j 的值付给 v[1]
+                if(nums[i] + nums[j] == target) {  //进行判断，如果 nums[i] 加 nums[j]等于目标值，那么就进入下面
+                    v[0] = i;  //把 i 的值赋给 v[0]
+                    v[1] = j;  //把 j 的值赋给 v[1]
                     return v;  //返回 v
                 }
             }
@@ -51,4 +58,5 @@ public:
 };
 ```
 
-代码来自[https://www.liuchuo.net/archives/1006](https://www.liuchuo.net/archives/1006)，我太水了，只能通过写注释来理解代码。
+代码来自[https://www.liuchuo.net/archives/1006](https://www.liuchuo.net/archives/1006) ，我太水了，只能通过写注释来理解代码。
+
