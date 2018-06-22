@@ -34,6 +34,12 @@ comments:
   disqus: true
   disqus_url: 'https://weijunzii.disqus.com/embed.js'
 
+reward:
+  enable: true
+  reward_comment: '头发不够用了'
+  wechatpay: 'https://upload-images.jianshu.io/upload_images/2989110-9ed50d1f90af6cdb.jpg'
+  alipay: 'https://upload-images.jianshu.io/upload_images/2989110-b332375de5cb2f4a.png'
+
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
 
