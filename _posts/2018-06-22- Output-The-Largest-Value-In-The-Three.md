@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '输出 3 个数中的最大值'
-subtitle: '介绍'
+subtitle: 'a,b,c 中，我最大~'
 date: 2018-06-22
 author: 伪君子
 categories: 技术，编程
