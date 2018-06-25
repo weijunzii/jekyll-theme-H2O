@@ -1,19 +1,12 @@
 ---
+title: 友链
 layout: default
-home-title: 大佬们的链接
-description: 我永远喜欢各位大佬
+
 ---
 
 
 {% include header.html %}
 
-<div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
-    <h2>{{ page.home-title }}</h2>
-    <h3>{{ page.description }}</h3>
-    {% if page.header-img %}
-    <img class="header-img" src="{{ page.header-img | prepend: site.baseurl }}" alt="">
-    {% endif %}
-</div>
 
 <main class="tags-content">
     <ul class="tags-list">
