@@ -35,6 +35,14 @@ nightMode: true
 comments:
   disqus: true
   disqus_url: 'https://weijunzii.disqus.com/embed.js'
+  gitalk: true
+  gitalk_clientID: 'ffffa4f83a1acc05407c'
+  gitalk_Secret: 'f705cdd050c30af76062d3f390273bcaa3935a18'
+  gitalk_repo: 'weijunzii.github.io'
+  gitalk_owner: 'weijunzii'
+  gitalk_admin: 'weijunzii'
+  distractionFreeMode: true
+  
 
 reward:
   enable: true
