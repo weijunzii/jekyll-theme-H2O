@@ -42,7 +42,7 @@ comments:
   gitalk_repo: 'weijunzii.github.io'
   gitalk_owner: 'weijunzii'
   gitalk_admin: 'weijunzii'
-  distractionFreeMode: false
+  distractionFreeMode: true
   
 
 reward:
