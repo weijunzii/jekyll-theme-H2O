@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 {% include post-head.html %}
 
 <body>
@@ -103,6 +104,7 @@
   {% include footer.html %}
 
   <script src="/assets/js/social-share.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   <script>
     socialShare('.social-share', {
       sites: [
@@ -137,7 +139,22 @@
     })();
   </script>
   {% endif %}
-
+	
+  {% if site.comments.gitalk %}
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '{{ site.comments.gitalk_clientID }}',
+      clientSecret: '{{ site.comments.gitalk_Secret }}',
+      repo: '{{ site.comments.gitalk_repo }}',
+      owner: '{{ site.comments.gitalk_owner }}',
+      admin: '{{ site.comments.gitalk_admin }}',
+      id: location.pathname,     
+      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  
+    })
+    gitalk.render('gitalk_container')
+  </script>
+  {% endif %}
+	
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
 </body>
