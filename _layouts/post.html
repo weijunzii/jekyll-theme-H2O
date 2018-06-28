@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 {% include post-head.html %}
 
 <body>
@@ -138,21 +136,6 @@
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
-  </script>
-  {% endif %}
-	
-  {% if site.comments.gitalk %}
-  <script>
-    var gitalk = new Gitalk({
-      clientID: '{{ site.comments.gitalk_clientID }}',
-      clientSecret: '{{ site.comments.gitalk_Secret }}',
-      repo: '{{ site.comments.gitalk_repo }}',
-      owner: '{{ site.comments.gitalk_owner }}',
-      admin: '{{ site.comments.gitalk_admin }}',
-      id: location.pathname,     
-      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  
-    })
-    gitalk.render('gitalk_container')
   </script>
   {% endif %}
 	
