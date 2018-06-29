@@ -58,7 +58,7 @@ tags:  网站 博客
 ```
 如图所示，位置不要搞错
 ![](https://upload-images.jianshu.io/upload_images/2989110-c10dd3d79b1efee4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-##  2.2  在``{% if site.comments.disqus %}``后面添加
+##  2.2  在``{% site.comments.disqus %}``后面添加
 ```html
   {% if site.comments.gitalk %}
 	<script>
@@ -84,7 +84,7 @@ tags:  网站 博客
 保存修改，再提交。
 
 #  3  开 issues
-进入博客，点击设置，
+进入博客，点击设置
 ![](https://upload-images.jianshu.io/upload_images/2989110-e4091c3257e87b3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 进去后勾选一下 issues 就搞定了。
 ![](https://upload-images.jianshu.io/upload_images/2989110-dedec6f428555672.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
