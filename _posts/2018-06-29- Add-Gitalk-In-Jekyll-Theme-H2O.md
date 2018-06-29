@@ -16,7 +16,7 @@ tags:  网站 博客
 
 前提是 [搭建了博客](ttps://weijunzii.github.io/2018/04/02/Use-github-Set-Up-The-Blog.html)，使用的主题是 [jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O/) 这个主题。其余的可以借鉴，但不一定完全适用。
 
-#  0  	注册 GitHub Application
+#  0  注册 GitHub Application
 
 首先要注册一下 GitHub Application，
 >[https://github.com/settings/applications/new](https://github.com/settings/applications/new)
@@ -43,7 +43,7 @@ tags:  网站 博客
 
 #  2  配置 ``post.html``
 文件的位置在 ``_layouts\post.html``
-##  2.0  在 <html> 这个标签下添加
+##  2.0  在 ``<html>`` 这个标签下添加
 在 ```<html>``` 这个标签下加上这两行
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
@@ -60,7 +60,21 @@ tags:  网站 博客
 ![](https://upload-images.jianshu.io/upload_images/2989110-c10dd3d79b1efee4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ##  2.2  在``{% if site.comments.disqus %}``后面添加
 ```html
+  {% if site.comments.gitalk %}
+	<script>
+		var gitalk = new Gitalk({
+			  clientID: '{{ site.comments.gitalk_clientID }}',
+			  clientSecret: '{{ site.comments.gitalk_Secret }}',
+			  repo: '{{ site.comments.gitalk_repo }}',
+			  owner: '{{ site.comments.gitalk_owner }}',
+			  admin: '{{ site.comments.gitalk_admin }}',
+			  id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+			  distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
+			})
 
+			gitalk.render('disqus_thread')
+	</script>
+  {% endif %}
 ```
 如图所示
 ![](https://upload-images.jianshu.io/upload_images/2989110-1aebbf1abb854ebb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
