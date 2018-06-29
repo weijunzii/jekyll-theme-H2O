@@ -26,7 +26,7 @@ tags:  网站 博客
 
 ![](https://upload-images.jianshu.io/upload_images/2989110-c856407bdf2877b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#  1  配置 _config.yml
+#  1  配置 ``_config.yml``
 
 在 comments 那添加
 ```html
@@ -41,8 +41,8 @@ tags:  网站 博客
 是在 comments 下面那添加，不要搞错地方。
 ![](https://upload-images.jianshu.io/upload_images/2989110-c27643270bc9d4a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#  2  配置 post.html
-文件的位置在 _layouts\post.html
+#  2  配置 ``post.html``
+文件的位置在 ``_layouts\post.html``
 ##  2.0  在 <html> 这个标签下添加
 在 ```<html>``` 这个标签下加上这两行
 ```html
@@ -79,7 +79,7 @@ tags:  网站 博客
 如图所示
 ![](https://upload-images.jianshu.io/upload_images/2989110-1aebbf1abb854ebb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-关于 post.html 这部分的修改可以看一下我的[修改](https://github.com/weijunzii/weijunzii.github.io/commit/0ba47d4b3b437d73f7079bb9efba181f172520d7)
+关于 ``post.html`` 这部分的修改可以看一下我的[修改](https://github.com/weijunzii/weijunzii.github.io/commit/0ba47d4b3b437d73f7079bb9efba181f172520d7)
 
 保存修改，再提交。
 
