@@ -52,13 +52,13 @@ tags:  网站 博客
 就像这样
 ![](https://upload-images.jianshu.io/upload_images/2989110-84c51b2a8c713798.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-##   2.1  在{% include footer.html %}里添加
+##   2.1  在``{% include footer.html %}``里添加
 ```html
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 ```
 如图所示，位置不要搞错
 ![](https://upload-images.jianshu.io/upload_images/2989110-c10dd3d79b1efee4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-##  2.2  {% if site.comments.disqus %}后面添加
+##  2.2  在``{% if site.comments.disqus %}``后面添加
 ```html
   {% if site.comments.gitalk %}
 	<script>
