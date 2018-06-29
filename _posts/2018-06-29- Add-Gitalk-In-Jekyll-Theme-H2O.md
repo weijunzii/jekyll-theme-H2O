@@ -12,9 +12,13 @@ tags:  网站 博客
 
 * content
 {:toc}
-
+#  0  前言
 
 前提是 [搭建了博客](ttps://weijunzii.github.io/2018/04/02/Use-github-Set-Up-The-Blog.html)，使用的主题是 [jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O/) 这个主题。其余的可以借鉴，但不一定完全适用。
+
+Gitalk 是一个评论系统，在个人博客里添加了之后就可以很简便的进行评论和回复了。
+
+
 
 #  0  注册 GitHub Application
 
@@ -94,8 +98,11 @@ tags:  网站 博客
 #  4 相关说明
 
 参考了这篇文章才实现的：[https://tea9.github.io/2018/06/24/gitali_config.html](https://tea9.github.io/2018/06/24/gitali_config.html)
+
 文章作者写的说明：[http://note.youdao.com/publicshare/?id=6ea132ba501b49b2928125a694cc9ad9#/](http://note.youdao.com/publicshare/?id=6ea132ba501b49b2928125a694cc9ad9#/)
 
 使用的主题是：[jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O/) 
 
 感谢两位作者~~
+
+因为某种原因，小标题那里不能详细地写出在哪添加代码，一写出就编译不了这篇文章，所以把文章复制到[微信公众号了](https://mp.weixin.qq.com/s/e_ABP7TLAw5AmXDgPOLkkg)
