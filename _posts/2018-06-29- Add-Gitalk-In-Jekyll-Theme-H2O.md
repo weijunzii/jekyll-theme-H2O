@@ -20,7 +20,7 @@ Gitalk 是一个评论系统，在个人博客里添加了之后就可以很简�
 
 
 
-#  0  注册 GitHub Application
+#  1  注册 GitHub Application
 
 首先要注册一下 GitHub Application，
 >[https://github.com/settings/applications/new](https://github.com/settings/applications/new)
@@ -30,7 +30,7 @@ Gitalk 是一个评论系统，在个人博客里添加了之后就可以很简�
 
 ![](https://upload-images.jianshu.io/upload_images/2989110-c856407bdf2877b9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#  1  配置 ``_config.yml``
+#  2  配置 ``_config.yml``
 
 在 comments 那添加
 ```html
@@ -45,9 +45,9 @@ Gitalk 是一个评论系统，在个人博客里添加了之后就可以很简�
 是在 comments 下面那添加，不要搞错地方。
 ![](https://upload-images.jianshu.io/upload_images/2989110-c27643270bc9d4a0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#  2  配置 ``post.html``
+#  3  配置 ``post.html``
 文件的位置在 ``_layouts\post.html``
-##  2.0  在 ``<html>`` 这个标签下添加
+##  3.0  在 ``<html>`` 这个标签下添加
 在 ```<html>``` 这个标签下加上这两行
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
@@ -56,13 +56,13 @@ Gitalk 是一个评论系统，在个人博客里添加了之后就可以很简�
 就像这样
 ![](https://upload-images.jianshu.io/upload_images/2989110-84c51b2a8c713798.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-##   2.1  在`` footer.html``里添加
+##   3.1  在`` footer.html``里添加
 ```html
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 ```
 如图所示，位置不要搞错
 ![](https://upload-images.jianshu.io/upload_images/2989110-c10dd3d79b1efee4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-##  2.2  在``disqus``后面添加
+##  3.2  在``disqus``后面添加
 ```html
   {% if site.comments.gitalk %}
 	<script>
@@ -87,7 +87,7 @@ Gitalk 是一个评论系统，在个人博客里添加了之后就可以很简�
 
 保存修改，再提交。
 
-#  3  开 issues
+#  4  开 issues
 进入博客，点击设置
 ![](https://upload-images.jianshu.io/upload_images/2989110-e4091c3257e87b3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 进去后勾选一下 issues 就搞定了。
@@ -95,7 +95,7 @@ Gitalk 是一个评论系统，在个人博客里添加了之后就可以很简�
 
 再去看一下你博客里面的文章，如果说出现了评论框，那就是成功了。
 ![](https://upload-images.jianshu.io/upload_images/2989110-84fa2b8630072736.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#  4 相关说明
+#  5 相关说明
 
 参考了这篇文章才实现的：[https://tea9.github.io/2018/06/24/gitali_config.html](https://tea9.github.io/2018/06/24/gitali_config.html)
 
