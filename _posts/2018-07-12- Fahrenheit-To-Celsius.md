@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '华氏温度转摄氏温度'
-subtitle: '这几天好热啊'
+title: '华氏温度转摄氏温度~ C++ 做法'
+subtitle: '这几天好热啊,想吃西瓜'
 date: 2018-07-12
 author: 伪君子
 categories: 技术，编程
@@ -19,9 +19,9 @@ tags: 题解 C++
 一个华氏温度，浮点数
 ###  输出:
 摄氏温度，浮点两位小数
-###  样例输入
+###  样例输入:
 -40
-###  样例输出
+###  样例输出：
 c = -40.00
 
 题目链接：[http://www.dotcpp.com/oj/problem1005.html](http://www.dotcpp.com/oj/problem1005.html)
@@ -42,7 +42,7 @@ setiosflags(ios::fixed) 和 serprecision(N) 两个一起用时就表示保留 N 
 #  参考代码:
 ```C++
 #include<iostream>
-#include<iomanip> 
+#include<iomanip>   //精度控制头文件
 using namespace std;
 int main()
 {
@@ -55,3 +55,6 @@ int main()
 	return 0;
 }
 ```
+
+本地运行结果如下图
+![](https://upload-images.jianshu.io/upload_images/2989110-e961fc7df4c38206.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
