@@ -6,7 +6,7 @@ date: 2018-07-10
 author: 伪君子
 categories: 
 cover: ''
-tags: 编程 python 简书
+tags: 编程 Python 简书
 
 ---
 

@@ -6,7 +6,7 @@ date: 2018-05-14
 author: 伪君子
 categories: 技术，编程
 cover: ''
-tags: 编程 有趣的 python
+tags: 编程 有趣的 Python
 
 ---
 
