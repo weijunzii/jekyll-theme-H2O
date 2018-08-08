@@ -16,7 +16,7 @@ tags:
 #  说明
  一般来说，提供 SSR 服务的网站会有说明的，按着网站给的说明来就好，如果没有，那就看这个吧，这里介绍用订阅地址、扫描二维码、从剪贴板导入。
 
- [点击下载 ssr 安卓版](https://www.6yhy.com/ssr-download/ssr-android.apk),也可以选择[这个下载]({{ site.url }}/screenshot/SSR-in.zhaoj.shadowsocksr-3.4.0.6.apk)。区别在于一个是别人的，一个是我自己提取出来的 apk，以及前者你可能下载不到，后者下载有点慢
+ [点击下载 ssr 安卓版](https://www.6yhy.com/ssr-download/ssr-android.apk),也可以选择[这个下载](https://weijunzii.github.io/screenshot/SSR-in.zhaoj.shadowsocksr-3.4.0.6.apk)。区别在于一个是别人的，一个是我自己提取出来的 apk，以及前者你可能下载不到，后者下载可能有点慢
 
 #  用订阅地址
  下载、安装、打开
