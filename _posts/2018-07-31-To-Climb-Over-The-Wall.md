@@ -110,12 +110,12 @@ tags:
 
 说明一下，付费需谨慎
 
-#  3、ss或ssr翻越
+#  3、SS 或 SSR 翻越
 
 
-这里只介绍 ssr 的方法, ss 的方法其实差不多，所以不写。
+这里只介绍 SSR 的方法, SS 的方法其实差不多，所以不写。
 
-安卓教程、Window教程、iOS教程
+[安卓教程](https://weijunzii.github.io/2018/08/08/SSR-Android.html)、[Window教程](https://weijunzii.github.io/2018/08/08/SSR-Windows.html)、[iOS教程](https://weijunzii.github.io/2018/08/08/SSR-iOS.html)
 
 
 
