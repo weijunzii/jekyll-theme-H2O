@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ssr Windows 教程'
+title: 'SSR Windows 教程'
 subtitle: '没有介绍'
 date: 2018-08-08
 author: 伪君子
@@ -17,7 +17,7 @@ tags:
 
 一般来说，提供 SSR 服务的网站会有说明的，按着网站给的说明来就好，如果没有，那就看这个吧，这里介绍用订阅地址导入，扫描二维码、从剪贴板导入非常简单，我决定不写。
 
-[点击下载](https://kejibear.xyz/ssr-download/ssr-win.7z) ,也可以选择[下载这个](({{ site.url }}/screenshot/ssr-win.7z)),区别在于前者你可能下载不到，后者下载有点慢。
+[点击下载](https://kejibear.xyz/ssr-download/ssr-win.7z) ,也可以选择[下载这个](https://weijunzii.github.io/screenshot/ssr-win.7z),区别在于前者你可能下载不到，后者下载有点慢。
 
 #  用订阅地址
 
@@ -75,4 +75,4 @@ Windows 右下角会多出一个小飞机
 
 这样就关掉了代理，如果使用过 SSR 之后不能上网，那就来这里把代理服务器关掉。
 
-是这样的，用了 SSR 之后不退出它就直接关电脑，那就会造成电脑开机后连接不到网络，把使用代理服务器关了就好了。也可以选择电脑开机后直接打开 SSR，这样也可以使用网络/
+是这样的，用了 SSR 之后不退出它就直接关电脑，那就会造成电脑开机后连接不到网络，把使用代理服务器关了就好了。也可以选择电脑开机后直接打开 SSR，这样也可以使用网络。
