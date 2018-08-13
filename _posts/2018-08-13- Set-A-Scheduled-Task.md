@@ -38,9 +38,7 @@ tags: 编程
 ![](https://upload-images.jianshu.io/upload_images/2989110-2030eac53c54586a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 到了设置好的时间就会运行代码。
 
-<img alt="aweds" src="https://upload-images.jianshu.io/upload_images/2989110-7a23817902e1fc21.gif"style="-webkit-box-shadow: 4px 4px 3px 0px rgba(50, 50, 50, 0.65);
--moz-box-shadow:    4px 4px 3px 0px rgba(50, 50, 50, 0.65);
-box-shadow:         4px 4px 3px 0px rgba(50, 50, 50, 0.65);"></img>
+![](https://upload-images.jianshu.io/upload_images/2989110-7a23817902e1fc21.gif)
 
 ##  补充
 如果需要修改，需要点击任务计划程序库，然后找到你设置好的任务，双击，然后就可以修改了
