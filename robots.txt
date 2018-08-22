@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Request-rate: 1/2 # load 1 page per 2 seconds
-Crawl-delay: 60
+Crawl-delay: 5
