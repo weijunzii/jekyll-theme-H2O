@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '安装和配置 Java 开发环境'
-subtitle: ''
+subtitle: '这真的不难的！！'
 date: 2018-09-08
 author: 伪君子
 categories: 技术，编程
