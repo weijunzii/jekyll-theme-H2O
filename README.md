@@ -87,13 +87,13 @@ Using your smartphone to scan the QR Code
 	- [代码高亮](#代码高亮)
 	- [夜间模式](#夜间模式)
 - 个性化
-	- [主题皮肤](#主题皮肤)
+	- [博客封面、主题皮肤](#主题皮肤)
 	- [头图底纹](#头图底纹)
 - 高级部分
 	- [自定义](#自定义)
 - 集成服务
-	- [Disqus](#Disqus)
-	- [Share.js](#Share.js)
+	- [Disqus](#disqus)
+	- [Share.js](#sharejs)
 
 #### EN
 
@@ -202,18 +202,21 @@ sns属性可选参数：
 社交网站 | 参数
 --------|----
 微博 | `weibo`
-知乎 | `zhihu`
 推特 | `twitter`
-Instagram | `instagram`
-掘金 | `juejin`
 Github | `github`
+知乎 | `zhihu`
+掘金 | `juejin`
 豆瓣 | `douban`
-Facebook | `facebook`
-Dribble | `dribble`
-UI中国 | `uicn`
 简书 | `jianshu`
-Medium | `medium`
+UI中国 | `uicn`
 领英 | `linkedin`
+Facebook | `facebook`
+Youtube | `youtube`
+Instagram | `instagram`
+Dribbble | `dribbble`
+Behance | `behance`
+Medium | `medium`
+VK | `vk`
 
 #### 个人简介
 
@@ -371,7 +374,7 @@ postPatterns: 'circuitBoard'
 
 在了解H2O主题的目录结构之前，确保你对[Jekyll目录结构](http://jekyll.com.cn/docs/structure/)有所了解。
 
-```		
+```
 	.
 	├── _config.yml # 配置文件
 	├── _includes # 页面组件方便重用
@@ -413,21 +416,20 @@ postPatterns: 'circuitBoard'
 
 [Disqus](https://disqus.com/)是一个第三方社交评论插件，体验相当不错。
 
-模板默认开启Disqus评论插件，如需关闭请在 `_config.yml` 中配置参数 `true` (开启) 或者 `false` (关闭) :  
-
-在配置文件 `_config.yml` 中找到Disqus的相关配置，设置 `disqus` 参数为 `true` 打开评论功能，并且设置 `disqus_url`。
+在配置文件 `_config.yml` 中找到comments的相关配置，设置 `disqus` 参数为 `true` 打开评论功能（ `false` 为关闭），并且设置 `disqus_url`。
 
 ```
 # Comments
-disqus: true
-disqus_url: 'https://你的disqus账户名.disqus.com/embed.js'
+comments:
+	disqus: true
+	disqus_url: 'https://your-disqus-username.disqus.com/embed.js'
 ```
 
 注：`disqus` 默认值为 `false`
 
 #### Share.js
 
-为了让文章更方便地分享，使用了第三方分享插件[Share.js](http://overtrue.me/share.js/)，支持一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
+为了让文章更方便地分享，使用了第三方分享插件[Share.js](https://github.com/overtrue/share.js)，支持一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
 
 ```
 # Share
