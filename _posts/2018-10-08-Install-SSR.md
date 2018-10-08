@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '安装 ssr 服务端'
+title: '安装 SSR 服务端'
 subtitle: '嘿嘿嘿~'
 date: 2018-10-08
 author: 伪君子
@@ -12,9 +12,9 @@ tags: 安装
 
 * content
 {:toc}
-## 0 安装 ssr 服务端
+## 0 安装 SSR 服务端
 
-```
+```markup
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
@@ -44,14 +44,14 @@ obfs 是混稀方式，我选择的是```6) tls1.2_ticket_auth```
 
 复制过去，回车，显示一堆东西出来后再随便按一下键盘
 
-```
+```markup
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 
 搞定之后显示要重启，输入y，再回车就好
 ![](https://upload-images.jianshu.io/upload_images/2989110-e0e2bf4488716843.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-```
+```markup
 systemctl status shadowsocks -l 
 ```
 查看 SS 服务是否启用成功，出现下图说明就成功启用了

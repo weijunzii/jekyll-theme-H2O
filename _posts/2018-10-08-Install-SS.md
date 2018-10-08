@@ -16,7 +16,7 @@ tags: 安装
 
 ## 0 安装 ss 服务端
 把下面的代码复制到你的服务器，然后回车
-```
+```markup
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
 chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
@@ -37,7 +37,7 @@ chmod +x shadowsocks-all.sh
 
 复制过去，回车，显示一堆东西出来后再随便按一下键盘
 
-```
+```markup
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 
@@ -45,7 +45,7 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 ![](https://upload-images.jianshu.io/upload_images/2989110-e0e2bf4488716843.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-```
+```markup
 systemctl status shadowsocks -l 
 ```
 查看 SS 服务是否启用成功，出现下图说明就成功启用了
