@@ -40,7 +40,7 @@ obfs 是混稀方式，我选择的是```6) tls1.2_ticket_auth```
 记住 IP 和密码，不然就重装吧
 ![](https://upload-images.jianshu.io/upload_images/2989110-43c89f1148eb9d66.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## 1 安装锐速
+## 1 安装谷歌 BBR
 
 复制过去，回车，显示一堆东西出来后再随便按一下键盘
 

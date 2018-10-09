@@ -33,7 +33,7 @@ chmod +x shadowsocks-all.sh
 
 ![](https://upload-images.jianshu.io/upload_images/2989110-f5291091bef1ea73.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## 1 安装锐速
+## 1 安装谷歌 BBR
 
 复制过去，回车，显示一堆东西出来后再随便按一下键盘
 
