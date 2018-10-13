@@ -38,7 +38,7 @@ tags: 扩展 安装
 
 也可以像下图这样操作，点击那三个小点，选择更多工具，点击扩展程序
 ![](https://upload-images.jianshu.io/upload_images/2989110-b9fb8df84382cfde.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-进去后就是这样，开发者模式打不打开也行，个人觉得打开比较好
+进去后就是这样，开发者模式要打开，不然不能通过   .crx 文件添加扩展程序。
 ![](https://upload-images.jianshu.io/upload_images/2989110-db5390fa3349b862.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 把下载好的 .crx 文件拖进这个页面，然后等浏览器弹出下图这样的框框，点击添加扩展程序就好了
 ![](https://upload-images.jianshu.io/upload_images/2989110-3f4bc897989c2ef4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
