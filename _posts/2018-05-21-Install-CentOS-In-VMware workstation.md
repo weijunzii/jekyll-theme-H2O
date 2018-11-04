@@ -19,7 +19,7 @@ tags: CentOS 虚拟机 VMware workstation
 
 #  1  下载
 去官网下载
->[https://www.centos.org/download/]{https://www.centos.org/download/}
+>[https://www.centos.org/download/](https://www.centos.org/download/)
 
 推荐下载 DVD ISO；Everything ISO 太大，要下载好久；Minimal ISO 太小，连用户界面都没有。
 ![](https://upload-images.jianshu.io/upload_images/2989110-d7ec3002f4d4180f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
