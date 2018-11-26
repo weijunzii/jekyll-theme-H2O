@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '电脑使用 Vysor 控制手机'
-subtitle: '再丢 U 盘我就是狗！！'
+subtitle: '摸鱼也是可以的~'
 date: 2018-11-26
 author: 伪君子
 categories:
@@ -85,6 +85,6 @@ tags: 扩展程序 工具
 ![](https://upload-images.jianshu.io/upload_images/2989110-af0290ad1a35ee53.png)
  Vysor 可以用数据线连接，也可以用无线连接（手机连接的 wifi 和电脑需要在同一个网段下 ），个人觉得用数据线连接比无线连接好。
 
-先给 Windows 下使用 Vysor 客户端的视频，
+先给 [Windows 下使用 Vysor 客户端](https://v.qq.com/x/page/j13533k7fr0.html)的视频，
 
-接着就是 Windows 下使用 Vysor 扩展程序的视频，没错，我用的是汉化版的。
+接着就是 [Windows 下使用 Vysor 扩展程序](https://v.qq.com/x/page/h13535ktvmr.html)的视频，没错，我用的是汉化版的。
