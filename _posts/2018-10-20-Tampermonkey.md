@@ -32,7 +32,11 @@ Microsoft Edge 的用户可以去微软应用商店下载，这个实现起来�
 网站里面有不少的脚本，可以一个一个去试，也可以找别人推荐的脚本。
 ![](https://upload-images.jianshu.io/upload_images/2989110-0ae313807f2d2cec.png)
 
-所以我来推荐脚本了~~
+安装方法就是点击进入链接，然后选择安装，接着就不用管了。
+
+![](https://upload-images.jianshu.io/upload_images/2989110-d2f7b7f3b0626015.png)
+
+我来推荐脚本了~~
 ###  2.1 自动浮图
 
 Mouseover Popup Image Viewer，自动浮图，把鼠标移动到图片上面就能把图片放大显示。
@@ -50,7 +54,7 @@ Mouseover Popup Image Viewer，自动浮图，把鼠标移动到图片上面就�
 ![](https://upload-images.jianshu.io/upload_images/2989110-250b9b37e9ec5f34.png)
 
 ###  2.2 百度网盘下载助手
->[https://greasyfork.org/scripts/39776-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B%E4%BF%AE%E6%94%B9%E7%89%88/code/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B%E4%BF%AE%E6%94%B9%E7%89%88.user.js](https://greasyfork.org/scripts/39776-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B%E4%BF%AE%E6%94%B9%E7%89%88/code/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B%E4%BF%AE%E6%94%B9%E7%89%88.user.js)
+>[https://greasyfork.org/scripts/39504-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F%E7%89%88/code/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B%20%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F%E7%89%88.user.js](https://greasyfork.org/scripts/39504-%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B-%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F%E7%89%88/code/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B%20%E7%9B%B4%E9%93%BE%E5%8A%A0%E9%80%9F%E7%89%88.user.js)
 
 使用了之后就可以看见下载助手，点击之后可以选择直接下载和获取下载链接。单文件获取的是直接下载链接，多文件和文件夹获取的是打包压缩下载直链，可以使用迅雷极速版或者 IDM 进行高速下载。
 ![](https://upload-images.jianshu.io/upload_images/2989110-dd2ba0b5af12fb02.png)

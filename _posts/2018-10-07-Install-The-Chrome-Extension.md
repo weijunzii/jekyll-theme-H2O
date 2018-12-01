@@ -6,7 +6,7 @@ date: 2018-10-07
 author: 伪君子
 categories: 技术，编程
 cover: ''
-tags: 扩展 安装
+tags: 扩展程序 安装
 
 ---
 
@@ -24,9 +24,9 @@ tags: 扩展 安装
 
 当然，办法不止一个，还可以去下载别人打包好的扩展程序，随便给两个链接
 
-> https://173app.com/chrome-ext
+> [https://173app.com/chrome-ext}(https://173app.com/chrome-ext)
 
-> http://chromecj.com/list/
+> [http://chromecj.com/list/](http://chromecj.com/list/)
 
 去里面下载想要的插件，**不保证上面两个网站给的扩展程序是绝对安全的**
 
