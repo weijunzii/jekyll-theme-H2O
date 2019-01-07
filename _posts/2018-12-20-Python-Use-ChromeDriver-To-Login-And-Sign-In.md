@@ -96,4 +96,4 @@ except:
 
 ```
 
-当我写完这篇文字之后我发现原来我之前写过[类似的文章](https://weijunzii.github.io/2018/07/27/Simulate-Login-Zhihu.html),这个就有点尴尬了。****
+当我写完这篇文字之后我发现原来我之前写过[类似的文章](https://weijunzii.github.io/2018/07/27/Simulate-Login-Zhihu.html),这个就有点尴尬了。
