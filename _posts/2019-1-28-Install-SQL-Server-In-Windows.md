@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Windows 环境下安装 Microsoft SQL Server』'
+title: 'Windows 环境下安装 Microsoft SQL Server'
 subtitle: '别说难...'
 date: 2019-1-28
 author: 伪君子
@@ -14,7 +14,9 @@ tags: 安装 SQL
 #  0 前言
  SQL(Structured Query Language) ，结构化查询语言，是用于访问和处理数据库的标准的计算机语言，简单易学还好用。
 
-常用的数据库包括：MySQL、SQL Server、Access、Oracle 等，其中，Microsoft SQL Server 是微软公司推出的关系型数据库管理系统（DBMS），今天的文章主要是来说一下安装 Microsoft SQL Server 的过程，Windows 环境下安装 Microsoft SQL Server。
+常用的数据库包括：MySQL、SQL Server、Access、Oracle 等，其中，Microsoft SQL Server 是微软公司推出的关系型数据库管理系统（DBMS）。
+
+今天的文章主要是来说一下安装 Microsoft SQL Server 的过程，Windows 环境下安装 Microsoft SQL Server。
 
 #  1 下载和安装 SQL Server 2017
 因为目前最新的稳定版本是 2017 的，所以我下载的是 2017 的，不是说只能下载这个，有兴趣可以去下载别的版本，这个随意。
@@ -26,9 +28,9 @@ tags: 安装 SQL
 ![](https://upload-images.jianshu.io/upload_images/2989110-345d13e85cfe82aa.png)
 下载完成后开始安装，直接点击基本开始安装。
 ![](https://upload-images.jianshu.io/upload_images/2989110-5010346a28a160fc.png)
-许可条款当然是接收啦
+许可条款当然是接受啦
 ![](https://upload-images.jianshu.io/upload_images/2989110-ebc1773e457d0c3f.png)
-安装位置建议是修改成别的盘，不要安装到系统盘，然后安装。
+安装位置建议是修改成别的盘，不要安装到系统盘，然后点击安装。
 ![](https://upload-images.jianshu.io/upload_images/2989110-fd159d97ba699023.png)
 然后就会开始安装，等就是了，需要的时间有点长。
 ![](https://upload-images.jianshu.io/upload_images/2989110-606d2686ef13e3fa.png)
@@ -43,7 +45,7 @@ SSMS(Microsoft SQL Server Management Studio) 是 SQL Server 的管理工具，�
 如果不小心关了也没关系，反正都是进入下面这个链接下载 SSMS 的🌚🌚。
 >[https://docs.microsoft.com/zh-cn/sql/ssms](https://docs.microsoft.com/zh-cn/sql/ssms/)
 
-建议是下载正式版本，如果喜欢折腾，随意。
+建议下载正式版本，如果喜欢折腾，随意。
 ![](https://upload-images.jianshu.io/upload_images/2989110-4f926bfad30aca9f.png)
 
 安装其实很简单，双击安装包
