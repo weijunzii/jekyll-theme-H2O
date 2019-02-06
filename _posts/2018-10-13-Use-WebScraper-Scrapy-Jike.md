@@ -1,21 +1,21 @@
 ---
 layout: post
-title: '用 WebScrapy 爬取即刻关注/被关注列表'
+title: '用 WebScraper 爬取即刻关注/被关注列表'
 subtitle: '爬就完事了~'
 date: 2018-10-13
 author: 伪君子
 categories: 技术，编程
 cover: ''
-tags: 扩展程序
+tags: 扩展程序 WebScraper
 
 ---
 
 * content
 {:toc}
 ## 0 前言
-在即刻看见即友说用 WebScrapy 爬取了关注列表和被关注列表，感觉很爽，我评论了一句我觉得我可以写一个教程，然后就有人问我怎么搞了。骚话不说，教程来了。
+在即刻看见即友说用 WebScraper 爬取了关注列表和被关注列表，感觉很爽，我评论了一句我觉得我可以写一个教程，然后就有人问我怎么搞了。骚话不说，教程来了。
 
-## 1 安装 WebScrapy
+## 1 安装 Web Scraper
 
 其实我之前已经介绍过怎么安装谷歌浏览器扩展程序，所以这里只给一个[链接](https://weijunzii.github.io/2018/10/07/Install-The-Chrome-Extension.html)，如果说想要打包好的 .crx 文件，可以去下面这个链接下载，不保证绝对安全。
 >https://pan.baidu.com/s/1i6kIvGh 
@@ -26,13 +26,13 @@ tags: 扩展程序
 ![](https://upload-images.jianshu.io/upload_images/2989110-1136494d012af338.png)
 
 ## 2 准备爬取
-打开想爬取内容的网站，然后按一下 F12 就能看见  WebScrapy 了。
+打开想爬取内容的网站，然后按一下 F12 就能看见  Web Scraper 了。
 ![](https://upload-images.jianshu.io/upload_images/2989110-008bc9df01a25a36.png)
 如果看不见，按照图中的顺序修改一下就可以了。
 ![](https://upload-images.jianshu.io/upload_images/2989110-c906c7e3ca5858d5.png)
-下面我来介绍一下怎么用 WebScrapy 爬取即刻上关注我的人的信息
+下面我来介绍一下怎么用 Web Scraper 爬取即刻上关注我的人的信息
 
-先进入 WebScrapy，然后选择 Create new sitemap，接着选择 Create sitemap
+先进入 Web Scraper，然后选择 Create new sitemap，接着选择 Create sitemap
 ![](https://upload-images.jianshu.io/upload_images/2989110-f5d9426963bf7d36.png)
 Sitemap name 只能是英文，不能是中文；Start URL 就是你想爬取的链接，填好后选择 Create Sitemap
 ![](https://upload-images.jianshu.io/upload_images/2989110-8d2c73f38fa5737e.png)
