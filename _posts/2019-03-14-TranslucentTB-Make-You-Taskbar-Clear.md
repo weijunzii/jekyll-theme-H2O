@@ -50,6 +50,6 @@ tags: Windows 推荐
 你就能享受完整的桌面了。
 ![](https://upload-images.jianshu.io/upload_images/2989110-1db827d340229802.gif?imageMogr2/auto-orient/strip)
 
-## 3相关说明
+## 3 相关说明
 TranslucentTB 是免费开源的，授权协议是 GPL-3.0。
 >[https://github.com/TranslucentTB/TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)
