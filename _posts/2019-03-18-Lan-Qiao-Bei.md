@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '蓝桥杯入门训练题
+title: '蓝桥杯入门训练题'
 subtitle: '我好菜啊'
 date: 2019-03-18
 author: 伪君子
