@@ -63,29 +63,16 @@ Gitalk 是一个评论系统，在个人博客里添加了之后就可以很简�
 如图所示，位置不要搞错
 ![](https://upload-images.jianshu.io/upload_images/2989110-c10dd3d79b1efee4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ##  3.2  在``disqus``后面添加
-```html
-  {% if site.comments.gitalk %}
-	<script>
-		var gitalk = new Gitalk({
-			  clientID: '{{ site.comments.gitalk_clientID }}',
-			  clientSecret: '{{ site.comments.gitalk_Secret }}',
-			  repo: '{{ site.comments.gitalk_repo }}',
-			  owner: '{{ site.comments.gitalk_owner }}',
-			  admin: '{{ site.comments.gitalk_admin }}',
-			  id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
-			  distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
-			})
-
-			gitalk.render('disqus_thread')
-	</script>
-  {% endif %}
-```
-如图所示
+如下图所示
 ![](https://upload-images.jianshu.io/upload_images/2989110-1aebbf1abb854ebb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 关于 ``post.html`` 这部分的修改可以看一下我的[修改](https://github.com/weijunzii/weijunzii.github.io/commit/0ba47d4b3b437d73f7079bb9efba181f172520d7)
 
-保存修改，再提交。
+最近发现页面 title 的长度超过 50 个字符之后就会出错，表现为 Gitalk 报错，评论出不来。
+
+![](https://upload-images.jianshu.io/upload_images/2989110-5943a0cbbb261354.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+这部分的修改看[这里](https://github.com/weijunzii/weijunzii.github.io/commit/5af2e4af7390b9d3d4b6d70966a860db42dc095b)，主要就是加了 md5.min.js 个文件，接着引用 md5.min.js  文件，然后把 id: location.pathname, 修改为 id: md5(window.location.pathname)，感谢[@LouNlay ](https://github.com/lounlay) 的提醒和帮助。
 
 #  4  开 issues
 进入博客，点击设置
