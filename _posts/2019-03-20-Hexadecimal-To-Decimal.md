@@ -42,3 +42,4 @@ public class Main
     }
 }
 ```
+相关文章：[基础练习 十进制转十六进制](https://weijunzii.github.io/2019/03/21/Decimal-To-Hexadecimal.html)
