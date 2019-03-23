@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '蓝桥杯基础练习-回文数'
+title: '蓝桥杯基础练习-特殊回文数'
 subtitle: '我真的好菜啊'
 date: 2019-03-21
 author: 伪君子
