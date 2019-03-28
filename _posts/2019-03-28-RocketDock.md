@@ -1,12 +1,12 @@
 ---
 layout: post
-title: '蓝桥杯历届试题-回文数字'
-subtitle: '回得太多了'
-date: 2019-03-23
+title: 'RocketDock--Windows 也能体验 MacOS 的 Dock'
+subtitle: '仿苹果 MacOS 的程序坞'
+date: 2019-03-28
 author: 伪君子
 categories:
 cover: ''
-tags: Java 题解 蓝桥杯
+tags: Windows 推荐
 ---
 
 * content
@@ -14,7 +14,7 @@ tags: Java 题解 蓝桥杯
 
 
 ##  0 前言
-前面有一篇文章是介绍[用 TranslucentTB 让任务栏变透明](https://weijunzii.github.io/2019/03/14/TranslucentTB-Make-You-Taskbar-Clear.html)，要是有个类似 Mac 的 Dock（程序坞）就更好了。
+前面有一篇文章是介绍[用 TranslucentTB 让任务栏变透明](https://weijunzii.github.io/2019/03/14/TranslucentTB-Make-You-Taskbar-Clear.html)，要是有个类似 MacOS 的 Dock（程序坞）就更好了。
 
 我看中了 RocketDock 这个软件，用起来也舒服，实测 64 位的 Win 7 和 Win 10都能使用，占用的资源小。
 ## 1 下载
@@ -35,20 +35,31 @@ tags: Java 题解 蓝桥杯
 ![](https://upload-images.jianshu.io/upload_images/2989110-650bef9ac907fba9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 点击安装
 ![](https://upload-images.jianshu.io/upload_images/2989110-0a20a2166aff4689.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 安装好之后就能在屏幕顶部看到 Dock 栏了。
+
 ![](https://upload-images.jianshu.io/upload_images/2989110-bc063ccf54c2fbcb.gif)
 
-## 3 配置
+## 3 配置/使用
 点击程序设置进入 RocketDock 的设置页，把语言改成中文，勾选启动时自动运行。
 ![](https://upload-images.jianshu.io/upload_images/2989110-ac5194ccc5dc7b90.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 位置可以修改成在屏幕的别的地方。上下左右都可以，图层位置看个人喜好。
 ![](https://upload-images.jianshu.io/upload_images/2989110-af6bff528ff602b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 图标和风格也是看个人喜好，行为这里我倒是勾选了自动隐藏。
 ![](https://upload-images.jianshu.io/upload_images/2989110-de280327d894459a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+添加项目非常简单，文件、文件夹和快捷方式都能脱进去。
 
+![](https://upload-images.jianshu.io/upload_images/2989110-e0a387fe138d676d.gif?imageMogr2/auto-orient/strip)
+
+能脱进来自然能脱出去。
+
+![](https://upload-images.jianshu.io/upload_images/2989110-cb9d0feff506a18f.gif?imageMogr2/auto-orient/strip)
+
+右键任意一个图标也能进行设置，图标可以用 jpg、png、ico 等格式的文件来替换。
+![](https://upload-images.jianshu.io/upload_images/2989110-6b4d95c31c24ed91.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 整体效果可以看下面这个 gif，win 10 和 win 7 都安装了 RocketDock ，都是64位的电脑。
+
 ![](https://upload-images.jianshu.io/upload_images/2989110-5111b2def14d2965.gif?imageMogr2/auto-orient/strip)
+
 ## 4 相关说明
 RocketDock 占用的 CPU 和内存都非常小
 ![](https://upload-images.jianshu.io/upload_images/2989110-897d13fbd89a2936.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
