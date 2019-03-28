@@ -24,7 +24,7 @@ tags: 扩展程序 安装
 
 当然，办法不止一个，还可以去下载别人打包好的扩展程序，随便给两个链接
 
-> [https://173app.com/chrome-ext}(https://173app.com/chrome-ext)
+> [https://173app.com/chrome-ext](https://173app.com/chrome-ext)
 
 > [http://chromecj.com/list/](http://chromecj.com/list/)
 
