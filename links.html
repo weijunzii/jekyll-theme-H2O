@@ -2,6 +2,8 @@
 title: Links
 layout: default
 ---
+{% include header.html %}
+
 <style type="text/css"> 
 	p {margin-left: 20px}
 	li img{
@@ -11,7 +13,6 @@ layout: default
 	}
 	
 </style> 
-{% include header.html %}
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
     <h2>友情链接</h2>
 </div>
@@ -21,7 +22,7 @@ layout: default
 			<div onclick="window.open('http://liaokeyu.com/')">
 			<li style="height: 140px;cursor:pointer;">
 				<img src="http://liaokeyu.com/assets/img/profile.png" width="65" height="65" alt="廖柯宇">
-				<h4>廖柯宇</h4>
+				<h3>廖柯宇</h3>
 			<br/>
 				<span>前端开发者，热爱技术&设计，简单乐观爱创造。</span>
 			<br/>
