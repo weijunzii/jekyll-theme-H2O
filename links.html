@@ -1,23 +1,27 @@
----
+﻿---
 title: Links
 layout: default
 ---
 <style type="text/css"> 
 	p {margin-left: 20px}
-	img{float: left;padding-right: 11px;}
+	li img{
+		margin-right: 11px;
+		float: left;
+		border-radius: 50%;
+	}
+	
 </style> 
 {% include header.html %}
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
     <h2>友情链接</h2>
 </div>
 
-
 <main class="tags-content">
     <ul class="tags-list" style="padding:0 0 0px;">
 			<div onclick="window.open('http://liaokeyu.com/')">
 			<li style="height: 140px;cursor:pointer;">
 				<img src="http://liaokeyu.com/assets/img/profile.png" width="65" height="65" alt="廖柯宇">
-				<h3 >廖柯宇</h3>
+				<h4>廖柯宇</h4>
 			<br/>
 				<span>前端开发者，热爱技术&设计，简单乐观爱创造。</span>
 			<br/>
@@ -27,7 +31,7 @@ layout: default
 		
 			<div onclick="window.open('http://www.wanandroid.com/')">
 			<li style="height: 90px;margin: 0px 0px 5px;padding-top: 10px;cursor:pointer;">
-				<img src="https://upload-images.jianshu.io/upload_images/2989110-f74cdd725938e4b9.png" width="70" height="70" alt="wanandroid">
+				<img src="https://upload-images.jianshu.io/upload_images/2989110-f74cdd725938e4b9.png" style="border-radius: 0%;" width="70" height="70" alt="wanandroid">
 				<h4 >WanAndroid</h4>
 			<br/>
 				<span>玩 Android，每日推荐优质文章</span>
@@ -131,8 +135,7 @@ layout: default
 			<p>微信：</p>
 		<br/>
 			<img style="float: center;padding-right: 11px;" src="https://upload-images.jianshu.io/upload_images/2989110-32a5ba42700070e9.jpg" width="200" height="200" alt="微信">
-		<br/><br/><br/><br/><br/><br/><br/><br/>
-		<br/><br/><br/><br/><br/>
+		<br/><br/><br/>
 			<h3>2.可以到<a target="_blank" href="https://weijunzii.github.io/2017/01/01/Friends-Link.html" style="color:#5bbd72;">这篇文章</a>下留言，这样申请友链可能会方便一点</h3>
 		<br/>
 			<h3>3.更新了链接请一定一定要记得联系我！！！</h3>
