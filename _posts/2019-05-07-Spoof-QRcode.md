@@ -56,7 +56,7 @@ tags: 小程序
 
 这个小程序，绘图用的是 Painter ，没有这个库，这个小程序可能只是一个想法。
 
-> [https://github.com/Kujiale-Mobile/Painter ](<https://github.com/Kujiale-Mobile/Painter> )
+> [https://github.com/Kujiale-Mobile/Painter](https://github.com/Kujiale-Mobile/Painter)
 
 还要感谢帮我测试、给我提建议的各位小伙伴，一起完善了这个小程序。
 
