@@ -23,21 +23,13 @@ tags: Python
 
 ### 1.1 安装 wkhtmltopdf
 
-> 
->
 > <https://wkhtmltopdf.org/downloads.html>
->
-> 
 
-![下载 wkhtmltopdf](https://upload-images.jianshu.io/upload_images/2989110-2519c7a240938990.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)下载 wkhtmltopdf
+![下载 wkhtmltopdf](https://upload-images.jianshu.io/upload_images/2989110-2519c7a240938990.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 圈起来的那两个，上面写着 Installer 的是安装包，直接安装就行；下面写着 7z archive 的是压缩包，如果没记错的话，需要下载 7-Zip 才能解压使用。
 
-> 
->
 > <https://www.7-zip.org/>
->
-> 
 
 如果需要，可以把 wkhtmltopdf 加到系统变量 Path 中；如果不需要，把路径记住就好。
 
@@ -47,9 +39,9 @@ tags: Python
 
 pdfkit 可以直接用 pip install pdfkit 安装，要是不知道该怎么安装，那还是用 PyCharm 安装吧。
 
-![PyCharm 安装第三方库](http://upload-images.jianshu.io/upload_images/2989110-3b802df41aeff65b.png)PyCharm 安装第三方库
+![PyCharm 安装第三方库](http://upload-images.jianshu.io/upload_images/2989110-3b802df41aeff65b.png)
 
-![PyCharm 安装第三方库](http://upload-images.jianshu.io/upload_images/2989110-08e77e3f15cadde7.png)PyCharm 安装第三方库
+![PyCharm 安装第三方库](http://upload-images.jianshu.io/upload_images/2989110-08e77e3f15cadde7.png)
 
 ## 2 代码
 
@@ -57,26 +49,26 @@ pdfkit 可以直接用 pip install pdfkit 安装，要是不知道该怎么安�
 
 先导入要用的库 pdfkit，这里加上 time 只是为了计时。
 
-```
+```python
 import time
 import pdfkit
 ```
 
 下面这个 wk_path 是 wkhtmltopdf 的路径，config 是配置。
 
-```
+```python
 #  wkhtmltopdf 的路径
 wk_path = r'E:\Program Files\wkhtmltox\bin\wkhtmltopdf.exe'
 config = pdfkit.configuration(wkhtmltopdf=wk_path)
 ```
 
-url 是需要把 hmtl 转换成 pdf 的那个网页；name 是文件名，文件名这里一定要有后缀名 .pdf，不然得自己手动添加后缀名。
+url 是需要把 html 转换成 pdf 的那个网页；name 是文件名，文件名这里一定要有后缀名 .pdf，不然得自己手动添加后缀名。
 
-pdfkit.from_url(url, name, configuration=config) 就是开始把 hmtl 转换成 pdf 。
+pdfkit.from_url(url, name, configuration=config) 就是开始把 html 转换成 pdf 。
 
 time1 和 time2 是我用来计时的，跑完代码之后会输出用时。
 
-```
+```python
 url = "https://lbjheiheihei.xyz/2019/05/07/Spoof-QRcode.html"
 name = "lbj.pdf"
 time1 = time.time()
@@ -97,6 +89,6 @@ PDF和网页对比如下图，左边是 PDF，右边是 网页。（网页背景
 
 ## 3 相关说明
 
-这样把 hmtl 转换成的 pdf 肯定和网页原来的样子是有差别的，但是把本地的 hmtl 转换成 pdf 还是挺合适我心意的，毕竟解决了我的问题。
+这样把 html 转换成的 pdf 肯定和网页原来的样子是有差别的，但是把本地的 html 转换成 pdf 还是挺合适我心意的，毕竟解决了我的问题。
 
 如果想把多个 PDF 合并成一个的话，可以使用 PyPDF2，挺好用的。
