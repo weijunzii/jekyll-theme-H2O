@@ -22,7 +22,7 @@ tags: 不写代码爬数据 WebScraper
 
 安装完成之后，能在谷歌浏览器上看到 Web Scraper
 ![Web Scraper](http://pwqtqal1m.bkt.clouddn.com/FgjqWpzT_r0ucyzi1Itw3oePb2jU)
-## 打开 web scraper
+## 1 打开 web scraper
 
 打开 Web Scraper 其实很简单, 按 F12 或者点击鼠标右键，然后点击检查
 ![点击鼠标右键，然后点击检查](http://pwqtqal1m.bkt.clouddn.com/FvLFSZB4fYbNFYJHgnEWaTuzM2xf)
@@ -33,7 +33,7 @@ tags: 不写代码爬数据 WebScraper
 当你能看到 Web Scraper 这个的时候，点击一下就能打开了。
 ![Web Scraper](http://pwqtqal1m.bkt.clouddn.com/Fi_VESQ43k_G0BL7zF3gg0zrYZJD)
 
-## 1 爬取某乎上的数据
+## 2 爬取某乎上的数据
 
 [https://www.zhihu.com/people/excited-vczh/answers](https://www.zhihu.com/people/excited-vczh/answers)
 
@@ -77,7 +77,7 @@ Save selector 之后会跳转到一个新的界面，点击一下 sitemap 。。
 ![查看数据](http://pwqtqal1m.bkt.clouddn.com/FvPKeT8mdCMDMHMXYxYXoCwIhooY)
 
 
-## 2 爬取更多页
+## 3 爬取更多页
 上面的只有一页，对不对，可以有更多页
 
 先来看一下页面链接的规则，
@@ -103,7 +103,7 @@ Edit metadata，进入去修改一下，把链接改成 https://www.zhihu.com/pe
 然后保存，运行一下看看。
 ![Edit metadata](http://pwqtqal1m.bkt.clouddn.com/FvXNFf6cHW279FhtJrNHzxYn9pe3)
 
-##  3 爬取更多的数据
+##  4 爬取更多的数据
 显然，上面的数据只有一个 title，没有回答的内容，也没有点赞/评论数
 
 所以得加上，再创建一个 sitemap，或者直接把刚刚的 title 删掉，回到最初的起点,Add new selector
@@ -140,7 +140,7 @@ Edit metadata，进入去修改一下，把链接改成 https://www.zhihu.com/pe
 一个一个点开之后是这样样子的
 ![Selector graph](http://pwqtqal1m.bkt.clouddn.com/Fgos5DV7uWOYEyyvixsB9vl06G_W)
 
-## 4 相关说明
+## 5 相关说明
 显然，你们爬取下来的数据都是乱序的，有解，安装个东西就可以了。
 
 [电脑上安装 CouchDB](http://www.iwebscraper.com/install-couchdb/)，按照这个教程来就可以了。
