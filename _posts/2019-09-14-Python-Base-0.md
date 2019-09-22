@@ -15,7 +15,7 @@ tags: Python
 1.[安装并配置好 python 环境](https://mp.weixin.qq.com/s/cubyNsqX4Hg1Zo7CChY8Aw)，建议是 python3 的
 2.安装并配置好编译器，[PyCharm](https://mp.weixin.qq.com/s/cubyNsqX4Hg1Zo7CChY8Aw)、Anaconda、VS code 实在不行，记事本也可以。
 
-实在安装不了 python 环境，那就只能用[在线工具](https://tool.lu/coderunner/)的顶替一下了。
+实在安装不了 python 环境，那就只能用[在线工具](https://tool.lu/coderunner/)顶替一下，[这个](https://makerbean.com/python_online#),或者[这个](http://pythontutor.makerbean.com/live.html#mode=edit)
 
 ## 1 python 基础
 
@@ -155,5 +155,5 @@ else:
 ![题目](http://pwqtqal1m.bkt.clouddn.com/Fr0PpRE7NYWf2fzHSCWbJoip0rB3)
 提示：
 ![题目的提示](http://pwqtqal1m.bkt.clouddn.com/FtN0VHsKU2ckAbs-YkXeJ9kED328)
-菜鸟教程的链接，去看一下
+菜鸟教程关于Python 3 的链接，去看一下
 [https://www.runoob.com/python3/python3-tutorial.html](https://www.runoob.com/python3/python3-tutorial.html)
