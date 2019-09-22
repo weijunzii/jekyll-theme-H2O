@@ -1,8 +1,8 @@
-﻿# Site settings 配置站点
+# Site settings 配置站点
 title: '伪君子的梦呓'
 description: '伪君子，初学者/伪极客/灵魂歌手师。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '伪君子, 伪君子的梦呓, 伪君子的博客, C, C++, Python,CSS,HTML'
-url: 'https://weijunzii.github.io/' # your host
+keyword: 'Python基础,Python爬虫,伪君子, 伪君子的梦呓, 伪君子的博客'
+url: 'https://lbjheiheihei.xyz/' # your host
 encoding: UTF-8
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
