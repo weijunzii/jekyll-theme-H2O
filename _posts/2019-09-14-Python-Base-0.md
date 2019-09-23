@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: 'Python 基础 - 0'
 subtitle: '来了'
@@ -92,7 +92,7 @@ print(i.fly())
 
 ##  3 安装库
 pip install requests
-![pip install requests](http://pwqtqal1m.bkt.clouddn.com/FswDqUTnxKBb2VPbAQYXJzWVezsB)
+![pip install requests](http://img.lbjheiheihei.xyz/FswDqUTnxKBb2VPbAQYXJzWVezsB)
 ## 4 导入库
 ```Python
 import requests
@@ -152,8 +152,8 @@ else:
 ```
 ## 7 课后作业
 题目：
-![题目](http://pwqtqal1m.bkt.clouddn.com/Fr0PpRE7NYWf2fzHSCWbJoip0rB3)
+![题目](http://img.lbjheiheihei.xyz/Fr0PpRE7NYWf2fzHSCWbJoip0rB3)
 提示：
-![题目的提示](http://pwqtqal1m.bkt.clouddn.com/FtN0VHsKU2ckAbs-YkXeJ9kED328)
+![题目的提示](http://img.lbjheiheihei.xyz/FtN0VHsKU2ckAbs-YkXeJ9kED328)
 菜鸟教程关于Python 3 的链接，去看一下
 [https://www.runoob.com/python3/python3-tutorial.html](https://www.runoob.com/python3/python3-tutorial.html)
