@@ -237,4 +237,6 @@ while True:
 AirtestIDE 是可以只运行部分代码的
 ![只运行选中代码](http://img.lbjheiheihei.xyz/Fhs99SUTSCju7kxroUkJe6MfM2Ou)
 
-稍微做一下修改的话，那么就不是爬取整个朋友圈了，而是可以单独爬取一个人的朋友圈
+稍微做一下修改的话，那么就不是爬取整个朋友圈了，而是可以单独爬取一个人的朋友圈。
+
+这样爬取下来的只是昵称 + 文字，如果想爬取更多，可以试试 hook 或者 mitmproxy 抓包，如果有更好的方式，欢迎大佬留言![img](https://res.wx.qq.com/mpres/htmledition/images/icon/common/emotion_panel/emoji_wx/2_12.png)
