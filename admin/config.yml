@@ -9,7 +9,7 @@ collections:
   folder: "/_posts" 
   sort: "date:desc" 
   create: true
-  slug: "\{\{year\}\}-\{\{month\}\}-\{\{day\}\}-\{\{slug\}\}"
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
   fields: 
     - {label: "Permalink", name: "permalink", widget: "string", default: "/YYYY/MM/DD/root", required: false}
     - {label: "Title", name: "title", widget: "string", tagname: "h1"}
