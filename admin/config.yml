@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: master 
-media_folder: "/assets/img" 
+media_folder: "/assets/post_img" 
 collections: 
 - name: "post" 
   label: "Post" 
@@ -10,12 +10,12 @@ collections:
   create: true
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
   fields: 
-    - {label: "Permalink", name: "permalink", widget: "string", default: "/YYYY/MM/DD/root", required: false}
-    - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-    - {label: "Subtitle", name: "subtitle", widget: "string", tagname: "h3"}
-    - {label: "Cover Image", name: "cover", widget: "image",required: false}
-    - {label: "Author", name: "author", widget: "string"}
-    - {label: "Tags", name: "tags", widget: "string", required: true}
-    - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
-    - {label: "Body", name: "body", widget: "markdown"}
+    - {label: "链接", name: "permalink", widget: "string", default: "/YYYY/MM/DD/root", required: false}
+    - {label: "标题", name: "title", widget: "string", tagname: "h1"}
+    - {label: "描述", name: "subtitle", widget: "string", tagname: "h3"}
+    - {label: "背景图", name: "cover", widget: "image",required: false}
+    - {label: "作者", name: "author", widget: "string"}
+    - {label: "Tags", name: "tags", widget: "string", required: false}
+    - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+    - {label: "正文", name: "body", widget: "markdown"}
     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
