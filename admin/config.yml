@@ -6,11 +6,11 @@ collections:
 - name: "post" 
   label: "Post" 
   folder: "/_posts" 
-  sort: "date:desc" 
+  sort: "date:asc" 
   create: true
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
   fields: 
-    - {label: "链接", name: "permalink", widget: "string", default: "/YYYY/MM/DD/root", required: true}
+    - {label: "链接", name: "permalink", widget: "string", default: "/YYYY/MM/DD/英文的文章描述.html", required: true}
     - {label: "标题", name: "title", widget: "string", tagname: "h1"}
     - {label: "描述", name: "subtitle", widget: "string", tagname: "h3"}
     - {label: "背景图", name: "cover", widget: "image",required: false}
