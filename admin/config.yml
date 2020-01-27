@@ -3,7 +3,7 @@ backend:
   branch: master 
 media_folder: "/assets/post_img" 
 display_url: https://lbjheiheihei.xyz
-locale: 'zh'
+locale: 'zh-cn'
 collections: 
 - name: "post" 
   label: "发表" 
@@ -21,3 +21,8 @@ collections:
     - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
     - {label: "正文", name: "body", widget: "markdown"}
     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+page: 
+  enabled: true
+  config:
+    label: "Page"
+    delete: false
