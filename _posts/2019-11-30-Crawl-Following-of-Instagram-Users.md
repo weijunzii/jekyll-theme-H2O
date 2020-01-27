@@ -1,12 +1,12 @@
 ---
-layout: post
-title: 'python 爬取 instagram 用户的关注列表'
-subtitle: '我也不想写代码的'
-date: 2019-11-30
-author: 伪君子
-categories:
+permalink: Crawl-Following-of-Instagram-Users.html
+title: python 爬取 instagram 用户的关注列表
+subtitle: 我也不想写代码的
 cover: ''
+author: 伪君子
 tags: Python
+date: 2019-11-30T00:00:00.000Z
+layout: post
 ---
 
 * content
@@ -17,38 +17,38 @@ tags: Python
 于是我就直接写代码来爬取了，用 python 写个代码，半小时就好了🤣
 ## 1 分析过程
 先访问用户主页，然后 F12 打开控制台，接着点击 Network，然后在下面选中 XHR。
-![用户主页](http://img.lbjheiheihei.xyz/FnGpRpk5k7Cr4AbOVNs2PIVM-qFL)
+![用户主页](https://img.lbjheiheihei.xyz/FnGpRpk5k7Cr4AbOVNs2PIVM-qFL)
 
 在页面中点击 正在关注，会出现下图中圈出的网络请求
-![XHR（XML Http Request）](http://img.lbjheiheihei.xyz/FuSKz-EOv5gaMEqU7PCuNOWJ_Mm7)
+![XHR（XML Http Request）](https://img.lbjheiheihei.xyz/FuSKz-EOv5gaMEqU7PCuNOWJ_Mm7)
 
 点击第一个加载出来的请求，然后点击 Preview 查看一下加载的数据是否一致，是否一一对应。
 
 username、followed_by_viewer、profile_pic_url 那些如果一一对应，那就是这个请求了，没找错。
-![数据](http://img.lbjheiheihei.xyz/FuK5cmSXNFnraYBYe086E1IwN4zv)
+![数据](https://img.lbjheiheihei.xyz/FuK5cmSXNFnraYBYe086E1IwN4zv)
 
 那么点击 Headers ，然后找到 Request Headers。
 
 这里非常重要，Request Headers也就是请求头里面携带了重要的信息 cookie，要是没有 cooike 的话，那就爬取不了了。
 
 代码中需要把请求头里面的信息加上才能爬取内容。
-![Request Headers](http://img.lbjheiheihei.xyz/FsVxvzHAvw6I20khWqOTTYETU0N1)
+![Request Headers](https://img.lbjheiheihei.xyz/FsVxvzHAvw6I20khWqOTTYETU0N1)
 
 拉到最下面就是 Query String Parameters，请求的参数，query_hash 照着来就好，一般不会变。
 
 variable 里面有个 id ，每个用户的 id 是不同的，所以要爬另一个用户关注的用户列表的话，需要进行替换。
-![Query String Parameters](http://img.lbjheiheihei.xyz/FlWY2UUS8Ty2_DqaXjI-FvRIZOnY)
+![Query String Parameters](https://img.lbjheiheihei.xyz/FlWY2UUS8Ty2_DqaXjI-FvRIZOnY)
 双击这个请求，浏览器会新开一个标签页来访问这个链接。
-![链接](http://img.lbjheiheihei.xyz/FmeOgnmGVcwQDI8z0VKqMOl6lsor)
+![链接](https://img.lbjheiheihei.xyz/FmeOgnmGVcwQDI8z0VKqMOl6lsor)
 在谷歌扩展程序【JSONVIEW】的加持下，看到是内容是下图这样的；如果不加持的话，所有的文字都是挤在一起的。
 
 简单分析一下， count 应该就是该用户关注了多少个人， has_next_page 就是有没有下一页，end_cursor 是查看下一页的关键，用来构造请求。
 
 每一个 node 里面就是一个用户的信息。
-![数据](http://img.lbjheiheihei.xyz/FvxDdQYaZTwq_8CzKevpBUGFU90o)
+![数据](https://img.lbjheiheihei.xyz/FvxDdQYaZTwq_8CzKevpBUGFU90o)
 
 id 是用户的 id；username 是用户名，是 instagram.com/eltaautomotive 后面的那一个用来标识用户的字符串；full_name 应该类似微信昵称。
-![用户界面](http://img.lbjheiheihei.xyz/FqQ4PLtY-rhACquqYLhfjW4u9sKG)
+![用户界面](https://img.lbjheiheihei.xyz/FqQ4PLtY-rhACquqYLhfjW4u9sKG)
 
 ##  2 代码思路
 使用 requests 去构造请求，把请求头和参数加上，提取获取到的内容，has_next_page用来判断有没有下一页，end_cursor 用来构造下一个请求，id，username，full_name 是需要的内容，保存到 csv 里面。
