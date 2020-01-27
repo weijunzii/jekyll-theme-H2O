@@ -3,7 +3,6 @@ backend:
   branch: master 
 media_folder: "/assets/post_img" 
 display_url: https://lbjheiheihei.xyz
-locale: 'zh-cn'
 collections: 
 - name: "post" 
   label: "发表" 
