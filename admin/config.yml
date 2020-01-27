@@ -21,8 +21,3 @@ collections:
     - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
     - {label: "正文", name: "body", widget: "markdown"}
     - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-page: 
-  enabled: true
-  config:
-    label: "Page"
-    delete: false
