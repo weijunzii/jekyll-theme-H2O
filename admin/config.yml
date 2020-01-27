@@ -2,11 +2,13 @@ backend:
   name: git-gateway
   branch: master 
 media_folder: "/assets/post_img" 
+display_url: https://lbjheiheihei.xyz
+locale: 'zh'
 collections: 
 - name: "post" 
-  label: "Post" 
+  label: "发表" 
   folder: "/_posts" 
-  sort: "date:asc" 
+  sort: "date:desc" 
   create: true
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
   fields: 
