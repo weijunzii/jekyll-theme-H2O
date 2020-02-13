@@ -896,7 +896,7 @@ a {
 
 .markdown-body {
     font-family: Merriweather-Light, -apple-system, Verdana, "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-    width: 720px;
+    width: 820px;/*markdonwn/正文 的宽度,之前为720px*/
     box-sizing: border-box;
     padding: 0 0 32px
 }
