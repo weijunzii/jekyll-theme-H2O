@@ -1,12 +1,12 @@
 ---
-layout: post
-title: '使用 GitHub 搭建个人博客'
-subtitle: '紧张刺激又有趣'
-date: 2018-04-02
+permalink: 2018/04/02/Use-github-Set-Up-The-Blog.html
+title: 使用 GitHub 搭建个人博客
+subtitle: 紧张刺激又有趣
+cover: ''
 author: 伪君子
-categories: 技术
-cover: 'https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-0.3.5&s=710cc626ae695b4a396de11ed871e415&auto=format&fit=crop&w=1950&q=80'
 tags: 博客 GitHub
+date: 2018-04-02T00:00:00.000Z
+layout: post
 ---
 
 * content
@@ -31,13 +31,12 @@ tags: 博客 GitHub
 
 在 GitHub 那新建一个库
 
-![](https://upload-images.jianshu.io/upload_images/2989110-9cc70efff22ea703.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+![建库](https://img.lbjheiheihei.xyz/FgzEeyC_rY9VyPFRD3vJwp5NYolp "建库")
 
 
 或者使用链接的方式，[https://github.com/new](https://github.com/new)
-
-![建库](https://upload-images.jianshu.io/upload_images/2989110-274c9c0504bc6af2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![建库](https://img.lbjheiheihei.xyz/FpR7yYNB1uHbhKNeG79riLr6nx5W "建库")
 
 
 
@@ -45,23 +44,23 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-89cb3e1a595b248d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![设置](https://img.lbjheiheihei.xyz/Fmwd4aHkR8Yol7sV1T7RGszF10L- "设置")
 
 
 
-下拉，找到 GitHub Pages 的 Select theme，我这里是选择过了的，所以不一样。
+
+下拉，找到 GitHub Pages 的 Change theme，我这里是选择过了的，所以不一样。
 
 
-
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-afa21ddfb8342d3b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Change theme](https://img.lbjheiheihei.xyz/Flq2u8Roncye_7Rm-wdxbdrTo5I4 "Change theme")
 
 
 
 进去后选择自己喜欢的主题，然后点击 Select theme 。
 
+![Select theme](https://img.lbjheiheihei.xyz/Fh2jFjRYHrWkUMbMNk6HOShnTbRE "Select theme")
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-0fe242e9f8963bff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -71,9 +70,8 @@ tags: 博客 GitHub
 
 登录 GitHub ，然后选择第三个 Clone a repository 
 
+![Clone a repository](https://img.lbjheiheihei.xyz/Fvs72LsndS2t9ROGBtLAVtL96I75 "Clone a repository")
 
-
-![229102334.jpg](https://upload-images.jianshu.io/upload_images/2989110-ecc5eea2abe72730.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -83,7 +81,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-bfd6ae31d295d606.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![.git文件夹](https://img.lbjheiheihei.xyz/FoJmpyNx3CL1pQc9NiI6b3TglC55 ".git文件夹")
 
 
 
@@ -93,15 +91,14 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-d180f2491f66a55c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![jekyll 模板](https://img.lbjheiheihei.xyz/Fnl9fibSTVhSHQUE6j99LeG19yWa "jekyll 模板")
 
 
 
 有在线演示的，可以先看看喜不喜欢，如果喜欢就下载回来
 
 
-
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-f606e86bd7d16ee9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![下载/在线演示](https://img.lbjheiheihei.xyz/FgeCmplLp4fmy9Wx0crN41dubQ3s "下载/在线演示")
 
 
 
@@ -111,7 +108,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-e5bdb52094df1827.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![_config.yml](https://img.lbjheiheihei.xyz/FuIySDm1l-tTy86YjMj1RrqeXBW4 "_config.yml")
 
 
 
@@ -120,20 +117,18 @@ tags: 博客 GitHub
 选择 Commit to master 。
 
 
-
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-58166734bb18b0d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Commit](https://img.lbjheiheihei.xyz/FvkRfRc_DWSnAoUNTAtctIl0roBY "Commit")
 
 
 
 然后选择同步，Push origin。
 
 
-
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-65a024cd2f389a17.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+![Push origin](https://img.lbjheiheihei.xyz/Frij2ok2r2d1lWfGavDDqWzuavLD "Push origin")
 
 
-![999545654.gif](https://upload-images.jianshu.io/upload_images/2989110-d45ec3c0ed27990c.gif?imageMogr2/auto-orient/strip)
+
+![gif演示](https://img.lbjheiheihei.xyz/FqRxYtf2wp7EYtHw3TwxG6naOTiV "gif演示")
 
 
 
@@ -145,7 +140,7 @@ tags: 博客 GitHub
 
 [https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-0e41573ce047f49d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![fork 的模板](https://img.lbjheiheihei.xyz/Fv4f9pD3wZJTsdCKNh-BsFMG-_zF "fork 的模板")
 
 
 
@@ -153,15 +148,15 @@ tags: 博客 GitHub
 
 ### 修改站点信息
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-5f7cd2580f41895e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![修改站点信息](https://img.lbjheiheihei.xyz/FoTFlzuKI9iEG2pP05AEEXUIlZjW "修改站点信息")
 
 ### 修改封面
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-5164b31454b2724d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![修改封面](https://img.lbjheiheihei.xyz/FrmX9hKBgxC7CIdAcvIbhHTYU7wF "修改封面")
 
 ### 修改个人介绍
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-86ae80125e3e3ed8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![修改个人介绍](https://img.lbjheiheihei.xyz/FtIBCi0XxBKD5yYLpYy23nay-M9B "修改个人介绍")
 
 [https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O) 里面有详细的说明，不赘述。
 
@@ -175,10 +170,10 @@ _posts 文件夹里面就是你写的博文，要用 markdown 语法写，不然
 
 参考的说明:[http://cyzus.github.io/2015/06/21/github-build-blog/](http://cyzus.github.io/2015/06/21/github-build-blog/)
 
-GitHub 的说明:[https://pages.github.com/](https://pages.github.com/)
+GitHub 的说明: [https://pages.github.com/](https://pages.github.com/)
 
- jekyll 主题: http://jekyllthemes.org/
+ jekyll 主题: <http://jekyllthemes.org/>
 
 使用的模板: [https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)
 
-我的博客地址：[https://github.com/weijunzii/weijunzii.github.io](https://github.com/weijunzii/weijunzii.github.io)
+我博客的 Github 地址：[https://github.com/weijunzii/weijunzii.github.io](https://github.com/weijunzii/weijunzii.github.io)
