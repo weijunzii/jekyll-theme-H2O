@@ -1,12 +1,13 @@
 ---
-layout: post
-title: '使用 GitHub 搭建个人博客'
-subtitle: '紧张刺激又有趣'
-date: 2018-04-02
+permalink: 2018/04/02/Use-github-Set-Up-The-Blog.html
+title: 使用 GitHub 搭建个人博客
+subtitle: 紧张刺激又有趣
+cover: >-
+  https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-0.3.5&s=710cc626ae695b4a396de11ed871e415&auto=format&fit=crop&w=1950&q=80
 author: 伪君子
-categories: 技术
-cover: 'https://images.unsplash.com/photo-1496449903678-68ddcb189a24?ixlib=rb-0.3.5&s=710cc626ae695b4a396de11ed871e415&auto=format&fit=crop&w=1950&q=80'
 tags: 博客 GitHub
+date: 2018-04-02T00:00:00.000Z
+layout: post
 ---
 
 * content
@@ -31,13 +32,13 @@ tags: 博客 GitHub
 
 在 GitHub 那新建一个库
 
-![](https://upload-images.jianshu.io/upload_images/2989110-9cc70efff22ea703.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/2989110-9cc70efff22ea703.png)
 
 
 
 或者使用链接的方式，[https://github.com/new](https://github.com/new)
 
-![建库](https://upload-images.jianshu.io/upload_images/2989110-274c9c0504bc6af2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![建库](https://upload-images.jianshu.io/upload_images/2989110-274c9c0504bc6af2.png)
 
 
 
@@ -45,7 +46,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-89cb3e1a595b248d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-89cb3e1a595b248d.png)
 
 
 
@@ -53,7 +54,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-afa21ddfb8342d3b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-afa21ddfb8342d3b.png)
 
 
 
@@ -61,7 +62,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-0fe242e9f8963bff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-0fe242e9f8963bff.png)
 
 
 
@@ -73,7 +74,7 @@ tags: 博客 GitHub
 
 
 
-![229102334.jpg](https://upload-images.jianshu.io/upload_images/2989110-ecc5eea2abe72730.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![229102334.jpg](https://upload-images.jianshu.io/upload_images/2989110-ecc5eea2abe72730.jpg)
 
 
 
@@ -83,7 +84,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-bfd6ae31d295d606.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-bfd6ae31d295d606.png)
 
 
 
@@ -93,7 +94,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-d180f2491f66a55c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-d180f2491f66a55c.png)
 
 
 
@@ -101,7 +102,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-f606e86bd7d16ee9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-f606e86bd7d16ee9.png)
 
 
 
@@ -111,7 +112,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-e5bdb52094df1827.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-e5bdb52094df1827.png)
 
 
 
@@ -121,7 +122,7 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-58166734bb18b0d8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-58166734bb18b0d8.png)
 
 
 
@@ -129,11 +130,11 @@ tags: 博客 GitHub
 
 
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-65a024cd2f389a17.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-65a024cd2f389a17.png)
 
 
 
-![999545654.gif](https://upload-images.jianshu.io/upload_images/2989110-d45ec3c0ed27990c.gif?imageMogr2/auto-orient/strip)
+![999545654.gif](https://upload-images.jianshu.io/upload_images/2989110-d45ec3c0ed27990c.gif)
 
 
 
@@ -145,7 +146,7 @@ tags: 博客 GitHub
 
 [https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-0e41573ce047f49d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-0e41573ce047f49d.png)
 
 
 
@@ -153,15 +154,15 @@ tags: 博客 GitHub
 
 ### 修改站点信息
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-5f7cd2580f41895e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-5f7cd2580f41895e.png)
 
 ### 修改封面
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-5164b31454b2724d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-5164b31454b2724d.png)
 
 ### 修改个人介绍
 
-![image.png](https://upload-images.jianshu.io/upload_images/2989110-86ae80125e3e3ed8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://upload-images.jianshu.io/upload_images/2989110-86ae80125e3e3ed8.png)
 
 [https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O) 里面有详细的说明，不赘述。
 
@@ -173,12 +174,12 @@ _posts 文件夹里面就是你写的博文，要用 markdown 语法写，不然
 
 **相关链接：**
 
-参考的说明:[http://cyzus.github.io/2015/06/21/github-build-blog/](http://cyzus.github.io/2015/06/21/github-build-blog/)
+参考的说明: [http://cyzus.github.io/2015/06/21/github-build-blog/](http://cyzus.github.io/2015/06/21/github-build-blog/)
 
-GitHub 的说明:[https://pages.github.com/](https://pages.github.com/)
+GitHub 的说明: [https://pages.github.com/](https://pages.github.com/)
 
- jekyll 主题: http://jekyllthemes.org/
+ jekyll 主题: [http://jekyllthemes.org/](http://jekyllthemes.org/)
 
 使用的模板: [https://github.com/kaeyleo/jekyll-theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)
 
-我的博客地址：[https://github.com/weijunzii/weijunzii.github.io](https://github.com/weijunzii/weijunzii.github.io)
+我博客的 Github 地址：[https://github.com/weijunzii/weijunzii.github.io](https://github.com/weijunzii/weijunzii.github.io)
