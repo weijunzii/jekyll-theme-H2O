@@ -14,6 +14,12 @@
   word-wrap: break-word;
 }
 
+#markdown-toc{
+	position:fixed;
+	top: 400px;
+	margin-left: 880px;
+}
+
 .markdown-body .pl-c {
   color: #969896;
 }
