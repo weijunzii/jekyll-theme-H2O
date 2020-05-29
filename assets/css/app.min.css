@@ -72,7 +72,7 @@ body {
     font-family: -apple-system, Verdana, "PingFang SC", "Helvetica Neue", Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     color: #656565;
     -webkit-font-smoothing: antialiased;
-    background-color: #f7f8fa
+    background-color: #F5F5D5; /*修改网页的背景*/
 }
 
 ul {
