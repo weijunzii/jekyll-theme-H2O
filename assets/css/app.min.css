@@ -953,19 +953,19 @@ a {
 }
 
 .author-detail .comment {
-    margin-bottom: 60px
+    margin-bottom: 10px
 }
 
 .read-next {
     display: flex;
     width: 720px;
-    margin: 60px auto
+    margin: 30px auto
 }
 
 .read-next-item {
     position: relative;
     flex: 1;
-    height: 260px;
+    height: 160px;
     padding: 0;
     top: 0;
     background-color: #aab4ca;
@@ -1399,7 +1399,7 @@ a {
     .read-next-item section {
         width: 90%;
         margin-left: 5%;
-        margin-top: 45px
+        margin-top: 69px !important;
     }
 
     .g-banner {
