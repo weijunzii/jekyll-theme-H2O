@@ -57,7 +57,8 @@
 }
 
 body, html {
-    height: 100%
+    height: 100%;
+	background-color: #F5F5D5; /*修改网页的背景*/
 }
 
 audio, body, caption, div, footer, form, h1, h2, h3, h4, h5, h6, header, html, iframe, label, legend, li, main, mark, menu, nav, ol, p, section, span, summary, table, textarea, time, ul, video {
@@ -860,7 +861,8 @@ a {
     width: 100%;
     background-color: #fff;
     overflow: hidden;
-    padding: 40px 0 80px
+    padding: 40px 0 80px;
+	background-color: #F5F5D5; /*修改文章的背景*/
 }
 
 .post-content .post-subtitle {
@@ -920,7 +922,8 @@ a {
 }
 
 .markdown-body img {
-    transition: .3s
+    transition: .3s;
+	border-radius: 6px; /*图片增加圆角*/
 }
 
 .markdown-body ol li p, .markdown-body ul li p {
