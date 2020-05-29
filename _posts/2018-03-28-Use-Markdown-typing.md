@@ -9,7 +9,8 @@ date: 2018-03-28T00:00:00.000Z
 layout: post
 categories: 技术
 ---
-* content {:toc}
+
+[TOC]
 
 
 
