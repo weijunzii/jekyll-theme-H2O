@@ -3,7 +3,7 @@ permalink: 2018/03/28/Use-Markdown-typing.html
 title: 用 Markdown 排版
 subtitle: 看了不吃亏哦～
 cover: https://images.unsplash.com/photo-1518172001620-cd0e03e41ff4?ixlib=rb-0.3.5&s=9b2b996cbae53d6b9d97e8d2629cf565&auto=format&fit=crop&w=1955&q=80
-author: 伪君子
+author: 君子
 tags: Markdown 排版
 date: 2018-03-28T00:00:00.000Z
 layout: post
