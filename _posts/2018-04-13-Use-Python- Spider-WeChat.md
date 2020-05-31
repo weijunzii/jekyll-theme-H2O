@@ -3,7 +3,7 @@ permalink: /2018/04/13/Use-Python-Spider-WeChat.html
 title: 用 Python 爬微信公众号
 subtitle: 基于搜狗微信搜索的微信公众号爬虫
 cover: ""
-author: 伪君子
+author: 君子
 tags: Python 爬虫 微信
 date: 2018-04-13T00:00:00.000Z
 layout: post
