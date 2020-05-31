@@ -2,8 +2,8 @@
 permalink: 2018/04/02/Use-github-Set-Up-The-Blog.html
 title: 使用 GitHub 搭建个人博客
 subtitle: 紧张刺激又有趣
-cover: 'https://img.lbjheiheihei.xyz/lrszjb1TWjv-O5Zykf12AQeKN2rs'
-author: 伪君子
+cover: https://img.lbjheiheihei.xyz/lrszjb1TWjv-O5Zykf12AQeKN2rs
+author: 君子
 tags: 博客 GitHub
 date: 2018-04-02T00:00:00.000Z
 layout: post
