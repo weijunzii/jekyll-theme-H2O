@@ -4,12 +4,14 @@ title: 使用 Python 伪造数据
 subtitle: 真真假假，假假真真
 cover: ""
 author: 君子
-tags: Python 伪造
+tags: Python 伪造 fake
 date: 2018-04-06T00:00:00.000Z
 layout: post
 categories: 技术
 ---
-* content {:toc}
+
+* content
+{:toc}
 
 # 0  前言
 
@@ -19,7 +21,6 @@ categories: 技术
 
 # 1  个人数据
 
-- - -
 
 使用的是 [faker](https://github.com/joke2k/faker) 这个包，安装的过程直接省去。下面这段代码是生成简单的个人信息。
 
@@ -74,7 +75,6 @@ print(fake.profile(fields=None, sex=None))
 
 # 2  爬虫 user_agent
 
-- - -
 
 运行爬虫的时候总会加上 user_agent，每一次都是找一堆 user_agent，然后堆在一起，最后用 random 随机选择一个。
 
@@ -126,7 +126,6 @@ print(fake.user_agent())
 
 # 3  相关说明
 
-- - -
 
 faker 的 GitHub：
 
