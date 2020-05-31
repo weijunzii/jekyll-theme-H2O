@@ -1,18 +1,15 @@
 ---
-layout: post
-title: '使用 Python 伪造数据'
-subtitle: '真真假假，假假真真'
-date: 2018-04-06
-author: 伪君子
-categories: 技术
-cover: ''
+permalink: 2018/04/06/Use-Python-Create-Fake-data.html
+title: 使用 Python 伪造数据
+subtitle: 真真假假，假假真真
+cover: ""
+author: 君子
 tags: Python 伪造
-
+date: 2018-04-06T00:00:00.000Z
+layout: post
+categories: 技术
 ---
-
-* content
-{:toc}
-
+* content {:toc}
 
 # 0  前言
 
@@ -22,7 +19,7 @@ tags: Python 伪造
 
 # 1  个人数据
 
-***
+- - -
 
 使用的是 [faker](https://github.com/joke2k/faker) 这个包，安装的过程直接省去。下面这段代码是生成简单的个人信息。
 
@@ -43,7 +40,7 @@ for _ in range(4):  # 输出4个，方便选择
 
 下面是运行结果，职位的本地化还稍微有所欠缺，哪怕选择了中文，职位还是英文的
 
-![运行结果](https://upload-images.jianshu.io/upload_images/2989110-f00fd3c75828afa7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![职位的运行结果](https://img.lbjheiheihei.xyz/FpnMXb0pvFRH3nDAT-z6E7kkFxDx "职位的运行结果")
 
 ## 生成简单信息
 
@@ -58,7 +55,7 @@ print(fake.simple_profile(sex=None))
 
 代码运行后的结果就是这样
 
-![简单个人信息](https://upload-images.jianshu.io/upload_images/2989110-ee5a39756a457299.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![简单个人信息](https://img.lbjheiheihei.xyz/FrjuE-f7tk-g2sKjFzF7AEa2Ku0I "简单个人信息")
 
 ## 生成复杂信息
 
@@ -71,13 +68,13 @@ fake = Faker('zh_CN')  # en_US,zh_CN,zh_TW
 print(fake.profile(fields=None, sex=None))
 ```
 
-![复杂个人信息](https://upload-images.jianshu.io/upload_images/2989110-7e18138ba90616b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![复杂个人信息](https://img.lbjheiheihei.xyz/FvL3d0LnJv_muCX6Q1MW4OFHihDE "复杂个人信息")
 
 还有很多的东西没有写出来，建议去阅读[官方文档](https://faker.readthedocs.io/en/master/)（官方文档是英文的。。）
 
-# 2  爬虫 user_agent 
+# 2  爬虫 user_agent
 
-***
+- - -
 
 运行爬虫的时候总会加上 user_agent，每一次都是找一堆 user_agent，然后堆在一起，最后用 random 随机选择一个。
 
@@ -109,7 +106,7 @@ user_agent = ["Mozilla/5.0 (Windows NT 10.0; WOW64)", 'Mozilla/5.0 (Windows NT 6
 
 现在只需用一下 faker 这个包，简简单单就可以弄出一堆的 user_agent 了
 
-![fake](https://upload-images.jianshu.io/upload_images/2989110-b8db0c70c3396fd0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![user_agent](https://img.lbjheiheihei.xyz/FndRdB1bNHh8PYNMaTn6EO010SpX "user_agent")
 
 多种样式，能满足大部分需求。
 
@@ -129,15 +126,12 @@ print(fake.user_agent())
 
 # 3  相关说明
 
-***
-
-
+- - -
 
 faker 的 GitHub：
 
-[https://github.com/joke2k/faker](https://github.com/joke2k/faker)
+<https://github.com/joke2k/faker>
 
 faker 的说明文档：
 
-[https://faker.readthedocs.io/](https://faker.readthedocs.io/)
-
+<https://faker.readthedocs.io/>
