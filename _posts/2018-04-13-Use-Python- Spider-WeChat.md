@@ -1,13 +1,13 @@
 ---
-layout: post
-title: '用 Python 爬微信公众号'
-subtitle: '基于搜狗微信搜索的微信公众号爬虫'
-date: 2018-04-13
+permalink: /2018/04/13/Use-Python-Spider-WeChat.html
+title: 用 Python 爬微信公众号
+subtitle: 基于搜狗微信搜索的微信公众号爬虫
+cover: ""
 author: 伪君子
-categories: 技术
-cover: ''
 tags: Python 爬虫 微信
-
+date: 2018-04-13T00:00:00.000Z
+layout: post
+categories: 技术
 ---
 
 * content
@@ -16,24 +16,24 @@ tags: Python 爬虫 微信
 
 #  0  前言
 
-***
 
 最近想搞一点秘密的小东西，然后就发现了一个非常有用的库 *wechatsogou*，听个名字你就大概能猜出是什么来的了，基于搜狗微信搜索的微信公众号爬虫接口，有了这个就可以玩起来了。
 
 #  1  环境说明
 
-***
 
 Win10 系统下 [Python3](http://mp.weixin.qq.com/s/cubyNsqX4Hg1Zo7CChY8Aw)，编译器是 [Pycharm](http://mp.weixin.qq.com/s/ygVuD0UOFGxtwWfbQHXDAg)，需要安装 [wechatsogou](https://github.com/Chyroc/WechatSogou) 这个库
 
 
 
 这里只介绍 [Pycharm](http://mp.weixin.qq.com/s/a06B-wLMyRWT1uY7uTP7lA) 安装第三方包的方法。
-<p><img src="http://image.135editor.com/files/users/404/4043688/201802/FHGW8HvR_rrTj.png" alt="一" style="box-shadow: rgb(102, 102, 101) 3.53553px 3.53553px 8px; margin: 0px 8px 8px 0px; border-radius: 4px;" _src="http://image.135editor.com/files/users/404/4043688/201802/FHGW8HvR_rrTj.png"></p><p><img src="http://image.135editor.com/files/users/404/4043688/201802/tIAVkLmj_DYYr.png" alt="二" style="box-shadow: rgb(102, 102, 101) 3.53553px 3.53553px 8px; margin: 0px 8px 8px 0px; border-radius: 4px;" _src="http://image.135editor.com/files/users/404/4043688/201802/tIAVkLmj_DYYr.png"></p>
+
+![Pycharm 安装第三方库](https://img.lbjheiheihei.xyz/FoPLaPyuCbVarvP9jpNsG5VhZJwu "Pycharm 安装第三方库")
+
+![Pycharm 安装第三方库](https://img.lbjheiheihei.xyz/FqXVEBEtAStmMAD29k5x4NHvFV9M "Pycharm 安装第三方库")
+
 
 # 2  相关代码
-
-***
 
 ## 2.1  搜索公众号信息
 
@@ -44,7 +44,7 @@ print(ws_api.search_gzh('萧北月'))  #  搜索公众号
 
 代码运行后会显示一个验证码，自己人工识别一下，再把验证码输入到```please input code:```那就好（6个字符的是搜狗的验证码，4个字符的是微信的验证码）
 
-![运行结果](https://upload-images.jianshu.io/upload_images/2989110-f513b1771f24824f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![运行结果](https://img.lbjheiheihei.xyz/FtWljz3DyoES0RUO6-L_HVZq7WzK "运行结果")
 *运行结果:*
 
 <pre><code class="language-css">[{'open_id': 'oIWsFt_dPYnbltzh3qPwi3J7XqJQ',
@@ -80,7 +80,7 @@ print(ws_api.search_article('萧北月'))  # 关键词是萧北月，不是说�
 </code></pre>
 
 运行结果是一大堆的东西，，这里只能爬取一部分的文章
-![](https://upload-images.jianshu.io/upload_images/2989110-ab4b45b6e9cf3941.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![微信公众号文章](https://img.lbjheiheihei.xyz/Ftdn0D7bKVURHEqoPBgzfm9qppek "微信公众号文章")
 
 <pre><code class="language-css">{'article': {'title': '用Python 制作微信好友个性签名词云图', 
 'url': 'http://mp.weixin.qq.com/s?src=11&timestamp=1523618973&ver=814&signature=vBZrfexBBbHDqRnEJyMsdimKvg8fJoyg8ca1iZKYUdw63s6kNtkI1H-0hz0glHvQhGKKYMntSPsm8YbqIrpnC4F3-cKLbjBZxtlFTdLEiP7NlQLpX8ZntMWOpXoWJ&new=1', 
@@ -110,7 +110,7 @@ for i in gzh_articles:
 </code></pre>
 
 *运行结果：*
-![](https://upload-images.jianshu.io/upload_images/2989110-9b590eaf4e5da10e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![首页热门页](https://img.lbjheiheihei.xyz/Fp3Gp1-XTb2Pv9tooAUhl55BC9FX "首页热门页")
 
 ```python
  'main_img': 'http://img01.sogoucdn.com/net/a/04/link?appid=100520033&url=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F0oVicD6cYHuGN2NpoWgNed6AzUsP0kukbx7zy57F8EWoATvhwvNp0e060sGACINVliaQtKZWDFhTQWbIAAV4iaibfA%2F0%3Fwx_fmt%3Djpeg',
@@ -166,7 +166,7 @@ print(ws_api.get_sugg('美女'))  # 获取关键字联想词
 
 
 分别试试美女，谷歌，腾讯，结果还行。
-![](https://upload-images.jianshu.io/upload_images/2989110-7d10c58fd6499367.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![关键词联想的结果](https://img.lbjheiheihei.xyz/FjMZkqo6nL9oboDaMOovN0aaMegC "关键词联想的结果")
 
 #  3  相关说明
 
