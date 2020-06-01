@@ -3,7 +3,7 @@ permalink: /2018/05/13/Upgrade-pip.html
 title: pip 升级出错的解决办法
 subtitle: pip 升级老是出错该怎么办？进来了解一下~
 cover: ""
-author: 伪君子
+author: 君子
 tags: 编程 Python pip
 date: 2018-05-13T00:00:00.000Z
 layout: post
