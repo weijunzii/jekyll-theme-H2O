@@ -1,19 +1,19 @@
 ---
-layout: post
-title: '安装 VMware workstation'
-subtitle: 'VMware workstation 了解一下~'
-date: 2018-05-20
-author: 伪君子
-categories: 技术，编程
-cover: ''
+permalink: /2018/05/20/install-VMware-Workstation.html
+title: 安装 VMware workstation
+subtitle: VMware workstation 了解一下~
+cover: ""
+author: 君子
 tags: 安装
+date: 2018-05-20T00:00:00.000Z
+layout: post
+categories: 技术，编程
 ---
 
 * content
 {:toc}
-#  0  前言
 
-***
+#  0  前言
 
 VMware Workstation 是 VMware 公司推出的一款桌面虚拟计算软件，具有 Windows、Linux 
  版本。VMware Workstation 提供虚拟机功能，使计算机可以同时运行多个不同操作系统。
@@ -26,8 +26,6 @@ VMware Workstation 可以使多个虚拟机在同一个宿主机中运行，每�
 
 #  1 下载
 
-***
-
 直接去官网 [https://www.vmware.com/cn.html](https://www.vmware.com/cn.html)下载
 
 这里给出 VMware Workstation Player 的链接
@@ -39,43 +37,42 @@ VMware Workstation 可以使多个虚拟机在同一个宿主机中运行，每�
 下面只给出安装 VMware Workstation Pro 的教程。
 
 选择合适的下载，然后安装，安装包也不大，
-![](https://upload-images.jianshu.io/upload_images/2989110-ad483ef74feaccfb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![VMware Workstation](https://img.lbjheiheihei.xyz/FoDErUDwAm4vn5O7M0_rnRKur2nw "VMware Workstation")
 
 #  2  安装
 
-***
 
 下载回来后就准备安装，双击后过一会就可以看见下图，点击下一步
 ![](https://upload-images.jianshu.io/upload_images/2989110-6a660fea087c2600.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 接受加下一步
-![](https://upload-images.jianshu.io/upload_images/2989110-05c5cb3a06a778ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![接受加下一步](https://img.lbjheiheihei.xyz/Fhef5xLnz955Qg_hBePYqnvGMMT6 "接受加下一步")
+
 这里记得改一下安装位置，最好不要选择系统盘，然后点击下一步。
-![](https://upload-images.jianshu.io/upload_images/2989110-a042930c152a2d20.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![修改安装位置](https://img.lbjheiheihei.xyz/FkcaDyPlsp-7PBQr83-PaY8nFMS_ "修改安装位置")
+
 还是下一步，当然了，可以取消勾选检查产品更新、加入体验改进计划
-![](https://upload-images.jianshu.io/upload_images/2989110-01fffc239fb467fd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![下一步](https://img.lbjheiheihei.xyz/Fm5M7FE9TLoyKYJaeeAThcQE8yIO "下一步")
+
 没猜错，还是下一步
-![](https://upload-images.jianshu.io/upload_images/2989110-ed402ecc99cafe74.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![还是下一步](https://img.lbjheiheihei.xyz/Fl7eSeaTP-G7b9XrIhWiPZW4KJmh "还是下一步")
+
 点击神圣的安装，喝口水吃块小饼干再看看风景就搞定了
-![](https://upload-images.jianshu.io/upload_images/2989110-ead6a579264dae66.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![安装](https://img.lbjheiheihei.xyz/FhKoLrpV0jFaGqo42thvGMr8tJag "安装")
 
 #  3 激活
 
-***
-
 如何你选择的是 VMware Workstation Player，那么点击完成就可以了，如果选择的是 VMware Workstation Pro ，请点击许可证
-![](https://upload-images.jianshu.io/upload_images/2989110-4dfcaf4858fa4e8a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![许可证](https://img.lbjheiheihei.xyz/FsiBgSjbH5gV9pah1GCudSG1X-02 "许可证")
 
 然后，输入许可证密钥：AC5XK-0ZD4H-088HP-9NQZV-ZG2R4
-![](https://upload-images.jianshu.io/upload_images/2989110-6aac9415e8f6e7ee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![许可证密钥](https://img.lbjheiheihei.xyz/FrgYJlYcjcnd4fVpwC297PN3lWm4 "许可证密钥")
 
-如果失效，请在后台回复【VMware密钥】
+如果失效，请在公众号回复【VMware密钥】
 
 好的，现在点击完成就真的完成了
-![](https://upload-images.jianshu.io/upload_images/2989110-3765513b604efd32.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![完成](https://img.lbjheiheihei.xyz/FrfEabFEF0gU810i3-RSbZFo41PO "完成")
 打开后就是这样了，搞定，收工！
-![](https://upload-images.jianshu.io/upload_images/2989110-8e38c9983bb5c18b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-下节预告，教你安装 Linux 虚拟机，等着吧~
+![界面](https://img.lbjheiheihei.xyz/FrC0xa8IIlkbPlVFLwXRVwz4CsHX "界面")
 
 ![](https://i.imgur.com/sbbVQ5Y.png)
