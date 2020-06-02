@@ -27,6 +27,7 @@ categories: 技术，编程
 ![镜像站](https://img.lbjheiheihei.xyz/FlW2g9mGkpBH53u0UXr30H5nHIEF "镜像站")
 
 >阿里云的镜像：[https://mirrors.aliyun.com/centos/](https://mirrors.aliyun.com/centos/)
+>
 >清华大学的镜像：[https://mirrors.tuna.tsinghua.edu.cn/centos/](https://mirrors.tuna.tsinghua.edu.cn/centos/)
 
 选择合适的进行下载，后面都标有具体大小的，不过看起来没那么舒适。
