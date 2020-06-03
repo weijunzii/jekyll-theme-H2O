@@ -39,8 +39,9 @@ categories: 技术，编程
 ![pip install lxml](https://img.lbjheiheihei.xyz/Fkqs95eykqhJy799GdDmEpfGVCJx "pip install lxml")
 
 如果不行，则去下面的网站下载。
->https://pypi.org/project/lxml/#files
->https://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml
+> <https://pypi.org/project/lxml/#files>
+>
+> <https://www.lfd.uci.edu/~gohlke/pythonlibs/#lxml>
 
 比如我这台电脑是 Python3.6，32位的就下载 **lxml-4.2.1-cp36-cp36m-win32.whl**
 ![lxml](https://img.lbjheiheihei.xyz/Fr7LVqTe3CuZ0IT4Xcx53wgMFSWE "lxml")
@@ -60,7 +61,7 @@ categories: 技术，编程
 >https://pypi.org/project/pyOpenSSL/#files
 
 如果还不行，就下载图中的这个，然后进入 cmd 用 pip 安装 whl文件
-![](https://upload-images.jianshu.io/upload_images/2989110-9b350150935e0032.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![whl文件](https://img.lbjheiheihei.xyz/FkvpKUCgITco7YSVNtWGdPnmuoMz "whl文件")
 
 ###  安装 Twisted
 我这里用 Pycharm 安装不了，pip install Twisted 也不行，直接去下载 whl 文件回来安装
@@ -79,7 +80,7 @@ categories: 技术，编程
 
 ###  安装 pywin32
 pycharm 安装或者 pip install pywin32
->https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/
+> <https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/>
 
 ![pycharm 安装 pywin32](https://img.lbjheiheihei.xyz/FoO8xr6wPjlX6oDGzVOZbKNDd2J2 "pycharm 安装 pywin32")
 如果不行，下载 exe 文件，下载回来直接运行一下就好。
