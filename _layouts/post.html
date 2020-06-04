@@ -81,7 +81,7 @@
         </section>
         {% if page.next.cover %}
         <div class="filter"></div>
-        <img src="{{ page.next.cover }}" alt="">
+        <img data-src="{{ page.next.cover }}" alt="" class="lazyload">
         {% endif %}
      </div>
       {% endif %}
@@ -95,7 +95,7 @@
           </section>
           {% if page.previous.cover %}
           <div class="filter"></div>
-          <img src="{{ page.previous.cover }}" alt="">
+          <img data-src="{{ page.previous.cover }}" alt="" class="lazyload">
           {% endif %}
       </div>
       {% endif %}
