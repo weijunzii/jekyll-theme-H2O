@@ -923,7 +923,7 @@ a {
 
 .markdown-body img {
     transition: .3s;
-	border-radius: 6px; /*图片增加圆角*/
+    border-radius: 16px; /*文章页面图片,增加圆角*/
 }
 
 .markdown-body ol li p, .markdown-body ul li p {
