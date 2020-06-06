@@ -5,7 +5,7 @@ media_folder: "/assets/post_img"
 display_url: https://lbjheiheihei.xyz
 collections: 
 - name: "post" 
-  label: "发表" 
+  label: "文章" 
   folder: "/_posts" 
   sort: "date:desc" 
   create: true
