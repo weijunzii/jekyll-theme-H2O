@@ -15,9 +15,14 @@
 }
 
 #markdown-toc{
-	position:fixed;
-	top: 320px;
+	position: fixed;
+	top: 365px;
 	margin-left: 880px;
+	height:45%;
+	overflow: hidden;
+	max-height: 80vh;
+	overflow-y: auto;
+	padding-right: 10px;
 }
 
 .markdown-body .pl-c {
