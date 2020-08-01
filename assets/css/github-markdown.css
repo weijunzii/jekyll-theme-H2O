@@ -291,6 +291,7 @@
 .markdown-body h6 {
   margin-top: 24px;
   margin-bottom: 16px;
+  margin-left: -0.25px !important;
   font-weight: 600;
   line-height: 1.25;
 }
