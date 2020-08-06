@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<script>
-     if (window.netlifyIdentity) {
+	{% include head.html %}
+	<script>
+		if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
            if (!user) {
               window.netlifyIdentity.on("login", () => {
@@ -11,19 +11,54 @@
             }
          });
      }
-</script> 
+</script>
 
-<body>
-    <!--[if lt IE 10]>
+	<body>
+		<!--[if lt IE 10]>
 <div class="alert-danger" role="alert">你的浏览器实在太太太旧了，放学别走，升级完浏览器再说！<a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div>
 <![endif]-->
-    <input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
-    <div class="visible">
-      {{ content }}
-    </div>
-    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    <script src="/assets/js/prism.js"></script>
-    <script src="/assets/js/index.min.js"></script>
-    <script src="/assets/js/lazysizes.min.js" async=""></script>
-</body>
+		<script>
+			var box = document.getElementsByClassName("box")[0]; //获取元素
+            var x, y; //鼠标相对与div左边，上边的偏移
+            var isDrop = false; //移动状态的判断鼠标按下才能移动
+            box.onmousedown = function(e) {
+                var e = e || window.event; //要用event这个对象来获取鼠标的位置
+                x = e.clientX - box.offsetLeft;
+                y = e.clientY - box.offsetTop;
+                isDrop = true; //设为true表示可以移动
+            }
+
+            document.onmousemove = function(e) {
+                //是否为可移动状态                　　　　　　　　　　　 　　　　　　　
+                if(isDrop) {　　　　
+                    var e = e || window.event;                    　　
+                    var moveX = e.clientX - x; //得到距离左边移动距离                    　　
+                    var moveY = e.clientY - y; //得到距离上边移动距离
+                    //可移动最大距离
+                    var maxX = document.documentElement.clientWidth - box.offsetWidth;
+                    var maxY = document.documentElement.clientHeight - box.offsetHeight;
+                    moveX=Math.min(maxX, Math.max(0,moveX));
+                    
+                    moveY=Math.min(maxY, Math.max(0,moveY));
+                    box.style.left = moveX + "px";　　
+                    box.style.top = moveY + "px";　　　　　　　　　　
+                } else {
+                    return;　　　　　　　　　　
+                }
+
+            }
+
+            document.onmouseup = function() {
+                isDrop = false; //设置为false不可移动
+            }
+        </script>
+		<input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
+		<div class="visible">
+			{{ content }}
+		</div>
+		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+		<script src="/assets/js/prism.js"></script>
+		<script src="/assets/js/index.min.js"></script>
+		<script src="/assets/js/lazysizes.min.js" async=""></script>
+	</body>
 </html>

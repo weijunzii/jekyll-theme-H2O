@@ -17,12 +17,13 @@
 #markdown-toc{
 	position: fixed;
 	top: 365px;
-	margin-left: 880px;
+	left: 1230px;
 	height:45%;
 	overflow: hidden;
 	max-height: 80vh;
 	overflow-y: auto;
 	padding-right: 10px;
+	cursor:move;
 }
 
 .markdown-body .pl-c {
