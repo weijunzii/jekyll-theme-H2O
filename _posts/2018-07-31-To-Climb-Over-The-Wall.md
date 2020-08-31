@@ -3,7 +3,7 @@ layout: post
 title: '翻越思维的墙'
 subtitle: '没有介绍'
 date: 2018-07-31
-author: 伪君子
+author: 君子
 categories: 技术，编程
 cover: ''
 tags: 
@@ -125,13 +125,6 @@ tags:
 
 #  3、SS 或 SSR 翻越
 
-
-这里只介绍 SSR 的方法, SS 的方法其实差不多，所以不写。
-
-[安卓教程](https://weijunzii.github.io/2018/08/08/SSR-Android.html)、[Window教程](https://weijunzii.github.io/2018/08/08/SSR-Windows.html)、[iOS教程](https://weijunzii.github.io/2018/08/08/SSR-iOS.html)
-
-
-
 免费SS 账号分享：[https://free-ss.site/](https://free-ss.site/)(能用多久不确定)
 
 
@@ -181,7 +174,7 @@ tags:
 提问也是一种艺术，安装过程出现问题，尝试了解决方法后还是不行，了解的提问的艺术后，可以说出遇到的问题，看到就回复。(一般说来都不会出现什么问题的)
 
 如果对本教程有建议，可以在下面评论或者去微信公众号留言。
-![提问也是一种艺术](https://upload-images.jianshu.io/upload_images/2989110-97448888836e388b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img data-src="https://img.lbjheiheihei.xyz/FvnKHJNqSySm3TjWESyKzVhaB6UO" class="lazyload"  alt="微信公众号" title="微信公众号">
 
 提问也是一种艺术
 
