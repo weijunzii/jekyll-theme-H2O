@@ -3,7 +3,7 @@ permalink: 2018/06/29/Add-Gitalk-In-Jekyll-Theme-H2O.html
 title: jekyll-theme-H2O 配置 gitalk
 subtitle: 感谢
 cover: ""
-author: 伪君子
+author: 君子
 tags: 网站 博客
 date: 2018-06-29
 layout: post
