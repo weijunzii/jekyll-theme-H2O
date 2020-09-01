@@ -1,13 +1,13 @@
 ---
-layout: post
-title: '用 Python 给你比个心'
-subtitle: '还有音乐'
-date: 2018-07-21
-author: 伪君子
-categories: 技术，编程
-cover: ''
+permalink: /2018/07/21/Use-Python-Draw-a-Heart.html
+title: 用 Python 给你比个心
+subtitle: 还有音乐
+cover: ""
+author: 君子
 tags: 编程 Python
-
+date: 2018-07-21
+layout: post
+categories: 技术，编程
 ---
 
 * content
@@ -17,9 +17,9 @@ tags: 编程 Python
 #  1 环境说明
 Win10 系统下 Python3，编译器是 Pycharm 。turtle 和 time 是，不用辛苦安装；pygame 可以直接用 `pip install  pygame` 安装，要是不知道该怎么安装，那还是用  Pycharm 安装吧。
 
-![一](http://upload-images.jianshu.io/upload_images/2989110-3b802df41aeff65b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img data-src="https://img.lbjheiheihei.xyz/FiWX1br6ELwKwLQIfQfmFO5je-oT" class="lazyload"  alt="Pycharm 安装第三方包" title="Pycharm 安装第三方包">
+<img data-src="https://img.lbjheiheihei.xyz/FqXVEBEtAStmMAD29k5x4NHvFV9M" class="lazyload"  alt="Pycharm 安装第三方包" title="Pycharm 安装第三方包">
 
-![二](http://upload-images.jianshu.io/upload_images/2989110-08e77e3f15cadde7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 #  2 实现
@@ -90,7 +90,7 @@ pygame.mixer.music.fadeout(100)  # 停止播放
 #t.done()
 ```
 录制了一个 gif 做示范
-![](https://upload-images.jianshu.io/upload_images/2989110-5e10c0f595768391.gif?imageMogr2/auto-orient/strip)
+<img data-src="https://img.lbjheiheihei.xyz/Fvf6tJM0a24-p8DX5IgvDBFwcaPM" class="lazyload"  alt="gif" title="gif">
 #  3 相关说明
 源代码是在知乎专栏那看见的，这里复制下来进行了修改和添加。
 
