@@ -1,13 +1,13 @@
 ---
-layout: post
-title: '用 selenium 和 scrapy 模拟知乎登录'
-subtitle: '登录完之后该干嘛就干嘛~'
-date: 2018-07-27
-author: 伪君子
-categories: 技术，编程
-cover: ''
+permalink: /2018/07/27/Simulate-Login-Zhihu.html
+title: 用 selenium 和 scrapy 模拟知乎登录
+subtitle: 登录完之后该干嘛就干嘛~
+cover: ""
+author: 君子
 tags: 编程 Python 模拟
-
+date: 2018-07-27
+layout: post
+categories: 技术，编程
 ---
 
 * content
@@ -22,7 +22,8 @@ Win10 系统下 Python3，编译器是 Pycharm 。需要安装 selenium 和 scra
 这里还需要下载一个 Drivers，比如我用的是 Chrome 浏览器就下载 chromedriver，别的浏览器下载对应的 driver 就好
 
 链接：[http://selenium-python.readthedocs.io/installation.html](http://selenium-python.readthedocs.io/installation.html)
-![](https://upload-images.jianshu.io/upload_images/2989110-465f493f9faf8c92.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+<img data-src="https://img.lbjheiheihei.xyz/FoQK37jTh9eVmhj7yMhVVKXx7fx5" class="lazyload"  alt="chromedriver" title="chromedriver">
 
 如果你因为无法【翻越思维的墙】而下载不了chromedriver.exe，而且巧好是 Windows 的话，可以去下面这下载
 >链接: https://pan.baidu.com/s/1Xz3ezvBVF4BwMYhV4pjaKg 
@@ -56,9 +57,9 @@ browser.find_element_by_css_selector(".SignFlowInput .Input-wrapper input[name='
 browser.find_element_by_css_selector(".Login-content button.SignFlow-submitButton").click()  # 点击登录
 ```
 
-实际效果可以看下面这个gif
+实际效果可以看下面这个 gif
 
-![](https://upload-images.jianshu.io/upload_images/2989110-66edc505bf1f00a0.gif?imageMogr2/auto-orient/strip)
+<img data-src="https://img.lbjheiheihei.xyz/FnDkgRLemswdtsJt9pQmHEE8D543" class="lazyload"  alt="gif" title="gif">
 
 ##  3 说明
 
