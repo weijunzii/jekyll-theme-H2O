@@ -1,13 +1,13 @@
 ---
-layout: post
-title: '爬取简书用户的动态'
-subtitle: '有点意思'
-date: 2018-07-10
-author: 伪君子
-categories: 
-cover: ''
+permalink: /2018/07/10/Crawl-JianShu-Users-Timeline.html
+title: 爬取简书用户的动态
+subtitle: 有点意思
+cover: ""
+author: 君子
 tags: 编程 Python 简书
-
+date: 2018-07-10
+layout: post
+categories: null
 ---
 
 * content
@@ -24,9 +24,9 @@ Win10 系统下 [Python3](https://mp.weixin.qq.com/s/cubyNsqX4Hg1Zo7CChY8Aw)，�
 
 这里只介绍 [Pycharm 安装第三方包](https://mp.weixin.qq.com/s/a06B-wLMyRWT1uY7uTP7lA)的方法。
 
-![](http://upload-images.jianshu.io/upload_images/2989110-3b802df41aeff65b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img data-src="https://img.lbjheiheihei.xyz/FiWX1br6ELwKwLQIfQfmFO5je-oT" class="lazyload"  alt="Pycharm 安装第三方包" title="Pycharm 安装第三方包">
 
-![](http://upload-images.jianshu.io/upload_images/2989110-08e77e3f15cadde7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img data-src="https://img.lbjheiheihei.xyz/FqXVEBEtAStmMAD29k5x4NHvFV9M" class="lazyload"  alt="Pycharm 安装第三方包" title="Pycharm 安装第三方包">
 #  2  相关代码
 ```python
 import requests
@@ -62,17 +62,20 @@ while True:
 
 file.close()
 ```
-这里我爬的是我简书账号的动态，如果想爬取别人的动态需要去拿到动态链接，进去他的主页，在动态那点击一下鼠标右键，然后复制链接地址或者在新标签页打开链接
-![](https://upload-images.jianshu.io/upload_images/2989110-61881cb2105eb199.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+这里我爬的是我简书账号的动态，如果想爬取别人的动态需要去拿到动态链接，进去他的主页，在动态那点击一下鼠标右键，然后复制链接地址或者在新标签页打开链接。
+
+<img data-src="https://img.lbjheiheihei.xyz/FvSy0OdKtuuLGLydRtXMx41yT-Mp" class="lazyload"  alt="动态链接" title="动态链接">
+
 替换一下图中圈住的链接
-![](https://upload-images.jianshu.io/upload_images/2989110-c44cb81f1eef354d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img data-src="https://img.lbjheiheihei.xyz/FqME2ugpkGvPJsehqwVukzmiq_pG" class="lazyload"  alt="替换链接" title="替换链接">
 
 如果想搜索的不是『大神带我来搬砖』可以自行替换
 
 实际运行结果如图
-![](https://upload-images.jianshu.io/upload_images/2989110-144135b15e0e641e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img data-src="https://img.lbjheiheihei.xyz/FuUjfx_0FjB0eCoq1kkpjFaFV-tj" class="lazyload"  alt="实际运行结果" title="实际运行结果">
+
 还有一个名字是 activity.txt 的文件在和代码同一级的文件目录下，打开进行搜索就是了。
-![](https://upload-images.jianshu.io/upload_images/2989110-27b5fcb81a6cc151.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<img data-src="https://img.lbjheiheihei.xyz/Fti4oz767Aw7RoPmekUesAWsGPCp" class="lazyload"  alt="activity.txt" title="activity.txt">
 
 #  3 相关说明
 大佬的[文章链接：https://www.jianshu.com/p/35a85ee14f7b](https://www.jianshu.com/p/35a85ee14f7b)
