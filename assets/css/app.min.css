@@ -732,7 +732,7 @@ a {
 }
 
 .post-header .post-tags {
-    margin: 150px 0 16px
+    margin: 100px 0 16px
 }
 
 .post-header .post-tags .post-tag {
@@ -825,7 +825,7 @@ a {
 }
 
 .post-no-cover {
-    height: 360px
+    /*height: 360px*/
 }
 
 .post-no-cover .post-tags {
