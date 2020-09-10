@@ -1,13 +1,13 @@
 ---
-layout: post
-title: '输出所有的水仙花数'
-subtitle: '喜欢了'
-date: 2018-09-21
-author: 伪君子
-categories: 技术，编程
-cover: ''
+permalink: /2018/09/21/Narcissitic-Number.html
+title: 输出所有的水仙花数
+subtitle: 喜欢了
+cover: ""
+author: 君子
 tags: Java 题解
-
+date: 2018-09-21
+layout: post
+categories: 技术，编程
 ---
 
 * content
