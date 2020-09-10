@@ -1,13 +1,13 @@
 ---
-layout: post
-title: '安装谷歌浏览器扩展程序'
-subtitle: '搞事搞事~'
-date: 2018-10-07
-author: 伪君子
-categories: 技术，编程
-cover: ''
+permalink: /2018/10/07/Install-The-Chrome-Extension.html
+title: 安装谷歌浏览器扩展程序
+subtitle: 搞事搞事~
+cover: ""
+author: 君子
 tags: 扩展程序 安装
-
+date: 2018-10-07
+layout: post
+categories: 技术，编程
 ---
 
 * content
@@ -20,7 +20,7 @@ tags: 扩展程序 安装
 
 ## 1  下载
 
-如果能够[【翻越思维的墙】](https://weijunzii.github.io/2018/07/31/To-Climb-Over-The-Wall.html)，那么直接去[Chrome 网上应用商店](https://chrome.google.com/webstore)进行下载，直接就能下载安装好，如果不行，那么[【翻越思维的墙】](https://weijunzii.github.io/2018/07/31/To-Climb-Over-The-Wall.html)。
+如果能够[【翻越思维的墙】](/2018/07/31/To-Climb-Over-The-Wall.html)，那么直接去[Chrome 网上应用商店](https://chrome.google.com/webstore)进行下载，直接就能下载安装好，如果不行，那么[【翻越思维的墙】](/2018/07/31/To-Climb-Over-The-Wall.html)。
 
 当然，办法不止一个，还可以去下载别人打包好的扩展程序，随便给两个链接
 
@@ -28,7 +28,9 @@ tags: 扩展程序 安装
 
 > [http://chromecj.com/list/](http://chromecj.com/list/)
 
-去里面下载想要的插件，**不保证上面两个网站给的扩展程序是绝对安全的**
+> <https://www.gugeapps.net/>
+
+去里面下载想要的插件，**不保证上面网站给的扩展程序是绝对安全的**
 
 ## 2  安装
 
@@ -37,12 +39,16 @@ tags: 扩展程序 安装
 如果是谷歌 Chrome，在地址栏输入 chrome://extensions/，按一下回车就进入到扩展程序的界面了
 
 也可以像下图这样操作，点击那三个小点，选择更多工具，点击扩展程序
-![](https://upload-images.jianshu.io/upload_images/2989110-b9fb8df84382cfde.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![点击扩展程序](https://img.lbjheiheihei.xyz/FiGwM2QhPXQoq8a-ZfIlSzHcCDhT "点击扩展程序")
+
 进去后就是这样，开发者模式要打开，不然不能通过   .crx 文件添加扩展程序。
-![](https://upload-images.jianshu.io/upload_images/2989110-db5390fa3349b862.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![打开开发者模式](https://img.lbjheiheihei.xyz/FmgG1B2oNtXeTI8QQahzK6xaCFNi "打开开发者模式")
+
 把下载好的 .crx 文件拖进这个页面，然后等浏览器弹出下图这样的框框，点击添加扩展程序就好了
-![](https://upload-images.jianshu.io/upload_images/2989110-3f4bc897989c2ef4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![添加扩展程序](https://img.lbjheiheihei.xyz/Fn0NYEu3Oqky_P1kHeF6YVq84cwV "添加扩展程序")
+
 出现这样的提醒说明已成功安装
-![](https://upload-images.jianshu.io/upload_images/2989110-3230d4672eec0e43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![成功安装](https://img.lbjheiheihei.xyz/Fj3QJ4mYXhq3VbFuhiZgOQlA1V-Z "成功安装")
+
 
 搞定，收工。
