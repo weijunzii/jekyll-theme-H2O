@@ -712,7 +712,7 @@ a {
 }
 
 .post-wrapper {
-    width: 720px
+    width: 820px /*修改post-wrapper的宽度，之前为720px*/
 }
 
 .post-header {
@@ -961,7 +961,7 @@ a {
 
 .read-next {
     display: flex;
-    width: 720px;
+    width: 820px; /*修改 read-next 的宽度，之前为720px*/
     margin: 30px auto
 }
 
