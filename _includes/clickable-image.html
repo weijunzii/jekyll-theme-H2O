@@ -20,7 +20,14 @@ for (i = 0; i < document.images.length; i++) {
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var img = document.images[i];
 	// 给图片设置 class 属性为 lazyload
-	img.className = 'lazyload';
+	
+	if(img.hasAttribute("data-src")){
+		
+	}else{
+		img.className = 'lazyload';
+		img.setAttribute("data-src",img.src);
+		img.src ='';
+	}
 
     img.onclick = function(){
         modal.classList.add("model-shown");
