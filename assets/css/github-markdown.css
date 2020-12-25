@@ -16,8 +16,8 @@
 
 #markdown-toc{
 	position: fixed;
-	top: 365px;
-	left: 1230px;
+	top: 42%;
+	left: 80%;
 	height:45%;
 	overflow: hidden;
 	max-height: 80vh;
@@ -25,6 +25,11 @@
 	padding-right: 20px;
 	cursor:move;
 	user-select:none;
+}
+
+@media screen and (max-width: 960px){
+  /* 手机端CSS代码,隐藏目录 */
+  #markdown-toc{display:none;}
 }
 
 .markdown-body .pl-c {
