@@ -7,6 +7,7 @@
 
 	<script>
 		window.onload=function(){
+			// 处理目录，使其可以移动
 			var box = document.getElementById("markdown-toc"); //获取元素
 			var x, y; //鼠标相对与div左边，上边的偏移
 			var isDrop = false; //移动状态的判断鼠标按下才能移动
@@ -40,6 +41,13 @@
 		
 			document.onmouseup = function() {
 				isDrop = false; //设置为false不可移动
+			}
+			// 处理文章里面的链接，使可以在新窗口访问
+			for (i = 0; i < document.querySelectorAll("article a").length; i++) {
+			    var a = document.querySelectorAll("article a")[i];
+			    if(a.hasAttribute("href") && a.className =="" && a.id == ""){
+					a.setAttribute("target","_blank");a.setAttribute("rel","noopener norefferrer")
+				}
 			}
 		}
 	</script>
